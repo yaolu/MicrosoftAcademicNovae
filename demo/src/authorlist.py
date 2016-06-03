@@ -17,6 +17,13 @@ class apiDataProcess:
 				pairs.append([single_paper[0],single_author])
 		return pairs
 
+	def all_author_list(self,filename):
+		authorlist = []
+		with open(filename,'r') as fs:
+			for line in fs:
+				authorlist.append(line.strip('\n'))
+		return authorlist
+
 
 
 class AuthorGraph:
@@ -24,22 +31,51 @@ class AuthorGraph:
 	_dict = {};
 
 	def pair_to_net(self,filename):
-		with open(filename) as fs:
+		with open(filename,'r') as fs:
 			self._graph = igraph.Graph.Read_Ncol(fs ,directed=False)
-		#print self._graph
-	
 
-	#def 
+	def load_id_citenum(self,filename):
+		with open(filename,'r') as fs:
+			for line in fs:
+				(AuId,cite_num,pub_year) = line.split()
+				if AuId != None:
+					self._dict[AuId] = int(cite_num)
 
+	def get_id_citenum(self,AuId):
+		try:
+			neighbor = list(set(self._graph.vs[self._graph.neighbors(AuId)]["name"]))
+			
+			neighbor.append(AuId)
+			neighbors_cite_map = {}
+			for author in neighbor:
+				try:
+					neighbors_cite_map.update({author:self._dict[author]})
+				except KeyError, e:
+					neighbors_cite_map.update({author:None})
+					#pass
+			return neighbors_cite_map
+		except ValueError as v:
+			return None
+
+
+		#[self._graph.neighbors(AuId)]["name"]))
+		
 
 
 if __name__ == '__main__':
-	a=apiDataProcess()
-	ss = a.authorlist_to_pair('../data/AuId_AuId.txt')
+	api=apiDataProcess()
+	authors_id = api.all_author_list('../data/all_author.txt')
 	
-	print len(ss)
+	#print len(ss)
 
-	#ag = AuthorGraph()
+	ag = AuthorGraph()
+	ag.pair_to_net('../data/ncols.txt')
+	ag.load_id_citenum('../data/AuId_CC_Y.txt')
+	for author in authors_id:
+		print ag.get_id_citenum(author)
+	#print ag.get_id_citenum('2105607418')
+	#print ag.get_id_citenum('2137977702')
+
 	#ag.pair_to_net('../data/ncols.txt')
 
 
