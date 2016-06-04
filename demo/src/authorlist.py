@@ -44,7 +44,7 @@ class AuthorGraph:
 	def get_id_citenum(self,AuId):
 		try:
 			neighbor = list(set(self._graph.vs[self._graph.neighbors(AuId)]["name"]))
-			
+
 			neighbor.append(AuId)
 			neighbors_cite_map = {}
 			for author in neighbor:
@@ -72,10 +72,22 @@ if __name__ == '__main__':
 	ag.pair_to_net('../data/ncols.txt')
 	ag.load_id_citenum('../data/AuId_CC_Y.txt')
 	for author in authors_id:
-		print ag.get_id_citenum(author)
+		author_neigh_dict = ag.get_id_citenum(author)
+		neigh_count = 0
+		neigh_val = 0
+		if author_neigh_dict != None:
+			if author_neigh_dict[author] != None:
+				for key in author_neigh_dict:
+					if author_neigh_dict[key] != None:
+						neigh_count += 1
+						neigh_val += author_neigh_dict[key] 
+				local_network_outlier = (1.0*neigh_val/neigh_count)/(1+author_neigh_dict[author])
+				with open('../result/loss.txt','a+') as fs:
+					fs.write(author+'\t'+str(local_network_outlier)+'\n')
+
+
 	#print ag.get_id_citenum('2105607418')
 	#print ag.get_id_citenum('2137977702')
-
 	#ag.pair_to_net('../data/ncols.txt')
 
 
