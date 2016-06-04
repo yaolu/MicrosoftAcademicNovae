@@ -29,6 +29,7 @@ class apiDataProcess:
 class AuthorGraph:
 	_graph = None;
 	_dict = {};
+	_dict_pubyear ={};
 
 	def pair_to_net(self,filename):
 		with open(filename,'r') as fs:
@@ -40,6 +41,7 @@ class AuthorGraph:
 				(AuId,cite_num,pub_year) = line.split()
 				if AuId != None:
 					self._dict[AuId] = int(cite_num)
+					self._dict_pubyear[AuId] = int(pub_year)
 
 	def get_id_citenum(self,AuId):
 		try:
@@ -57,6 +59,8 @@ class AuthorGraph:
 		except ValueError as v:
 			return None
 
+	def get_id_pubyear(self,AuId):
+		return self._dict_pubyear[AuId]
 
 		#[self._graph.neighbors(AuId)]["name"]))
 		
@@ -82,8 +86,9 @@ if __name__ == '__main__':
 						neigh_count += 1
 						neigh_val += author_neigh_dict[key] 
 				local_network_outlier = (1.0*neigh_val/neigh_count)/(1+author_neigh_dict[author])
+				pub_year = ag.get_id_pubyear(author)
 				with open('../result/loss.txt','a+') as fs:
-					fs.write(author+'\t'+str(local_network_outlier)+'\n')
+					fs.write(author+'\t'+str(local_network_outlier)+'\t'+str(pub_year)+'\t'+str(author_neigh_dict[author])+'\n')
 
 
 	#print ag.get_id_citenum('2105607418')
