@@ -1,265 +1,265 @@
-1143723981	infocom	None	None
-1164321581	siggraph	None	None
-1158167855	cvpr	None	None
-1133523790	vldb	None	None
-1190910084	stoc	None	None
-1150208541	focs	None	None
-1163450153	chi	None	None
-1123349196	mobicom	None	None
-1127325140	nips	None	None
-1184914352	aaai	None	None
-1203999783	ijcai	None	None
-None	None	148324379	popl
-1164975091	iccv	None	None
-1180662882	icml	None	None
-1187904452	dac	None	None
-1140684652	sigir	None	None
-1130985203	kdd	None	None
-1174403976	icse	None	None
-1175089206	sigmod	None	None
-1153524033	crypto	None	None
-1152462849	sigcomm	None	None
-1163902177	icra	None	None
-1135342153	www	None	None
-1188739475	acl	None	None
-1124077590	eccv	None	None
-1163988186	icde	None	None
-1140213147	eurocrypt	None	None
-None	None	5240358	ieee trans biomed eng
-1176978676	vtc	None	None
-1195049314	cscw	None	None
-1163618098	s&p	None	None
-1121227772	icassp	None	None
-1184151122	pods	None	None
-1192710900	iscas	None	None
-1128132410	iccad	None	None
-1198471430	ccs	None	None
-1130451194	icc	None	None
-1165622107	itc	None	None
-1164762582	ispd	None	None
-1130177464	soda	None	None
-1150919317	micro	None	None
-1151146444	mobihoc	None	None
-1162450063	cav	None	None
-1135237122	mm	None	None
-1200222865	icdcs	None	None
-1124527938	rtss	None	None
-1198780418	cdc	None	None
-1140070953	podc	None	None
-1131341566	isca	None	None
-None	None	5405189	aamas
-1204606053	uai	None	None
-1171002971	lics	None	None
-1140680567	ismb	None	None
-1166315290	uist	None	None
-1141821850	icalp	None	None
-1177184315	ecoop	None	None
-1163163559	icip	None	None
-1171178643	sosp	None	None
-1143959562	socg	None	None
-1155137614	kr	None	None
-1120728542	islped	None	None
-1143279144	iros	None	None
-1185109434	osdi	None	None
-1131605622	icpr	None	None
-1155608529	iswc	None	None
-1161772829	ipsn	None	None
-1138550902	sensys	None	None
-1164519180	hicss	None	None
-1169674987	coling	None	None
-None	None	151317046	4or
-1194094125	cikm	None	None
-1126329156	hpca	None	None
-1180274659	ndss	None	None
-1178330879	date	None	None
-1145706541	concur	None	None
-1127352206	pldi	None	None
-1200052134	cec	None	None
-1163279258	wcnc	None	None
-1191753779	ipdps	None	None
-1136691831	ics	None	None
-1141854641	hpdc	None	None
-1161424158	isnn	None	None
-1126322613	icme	None	None
-1156688768	icnp	None	None
-1165838108	i3d	None	None
-1155899826	icpp	None	None
-1138732554	oopsla	None	None
-1159477486	spaa	None	None
-1134913378	nossdav	None	None
-1173951661	naacl	None	None
-1177622950	colt	None	None
-1158363782	nsdi	None	None
-1201110412	iclp	None	None
-1159071770	tacas	None	None
-1197656824	isit	None	None
-1162831978	ecai	None	None
-1183478919	icdm	None	None
-1160919455	icsm	None	None
-1193787109	ppsn	None	None
-1171922823	fccm	None	None
-1200430907	egsr	None	None
-1140000399	gecco	None	None
-1136755600	fpga	None	None
-None	None	183285281	ac
-1171345118	ubicomp	None	None
-1149327232	wsc	None	None
-1201491352	cp	None	None
-1134440762	cade	None	None
-1188965700	recomb	None	None
-1131589359	sigmetrics	None	None
-1127098075	ches	None	None
-1163163559	icip	None	None
-1170221290	iui	None	None
-1132593990	edbt	None	None
-1186985151	iccd	None	None
-1198654179	bmvc	None	None
-1187160151	dsn	None	None
-1136861413	esop	None	None
-1180389419	ecscw	None	None
-1185773761	dcc	None	None
-1124125381	vts	None	None
-1176514135	er	None	None
-1134494671	pact	None	None
-None	None	103482838	cacm
-None	None	199944782	pami
-None	None	4502562	tit
-None	None	68686220	pieee
-None	None	196647941	tcom
-None	None	196139623	ai
-None	None	90422530	jsac
-None	None	8351582	tse
-None	None	118992489	jacm
-None	None	148324379	popl
-None	None	52395412	bioinformatics
-None	None	66039016	ccr
-None	None	178916657	computer
-None	None	157670870	tc
-None	None	47508943	sigmod record
-None	None	115304631	ieee transactions on image processing
-None	None	25538012	ijcv
-None	None	168680287	tsp
-None	None	157921468	csur
-None	None	153560523	siamcomp
-None	None	131921510	computer graphics
-None	None	76152103	tsmc
-None	None	207023548	neco
-None	None	62238642	ton
-None	None	11296630	jasa
-None	None	185367456	tog
-None	None	62148650	ml
-None	None	51360982	automatica
-None	None	42080949	ieee transactions on neural networks
-None	None	50071195	sigops
-None	None	125775545	operations research
-None	None	103321696	ejor
-None	None	60379886	acm sigarch computer architecture news
-None	None	90119964	tods
-None	None	141020589	jcss
-None	None	90727058	tcs
-None	None	169411308	fss
-None	None	116420536	ieee trans robotics automat
-None	None	40006715	comput method appl mech eng
-None	None	414566	pr
-None	None	115173108	tcsv
-None	None	59933527	iandc
-None	None	193920097	mathematical programming
-None	None	123019304	neural networks
-None	None	30698027	tkde
-None	None	73484101	ijrr
-None	None	41449414	toplas
-None	None	193109227	tocs
-None	None	165651092	int j numer method eng
-None	None	191421250	corr
-None	None	6725529	software
-None	None	87067389	tois
-None	None	137436721	cvgip
-None	None	105380075	cga
-None	None	134177497	tfs
-None	None	129573059	ijmms
-None	None	155526855	coli
-None	None	97130795	tpds
-None	None	77200987	siamam
-None	None	106390105	ibmrd
-None	None	118988714	jmlr
-1131589359	sigmetrics	None	None
-None	None	93787993	tec
-None	None	202812398	isr
-None	None	185008460	cviu
-None	None	63459445	twc
-None	None	186584794	network
-None	None	186921487	acm sigsoft software engineering notes
-None	None	55826652	mor
-None	None	88061139	int j contr
-None	None	157146593	jpdc
-None	None	165512578	siam journal on scientific computing
-None	None	177430994	ivc
-None	None	147953040	ipl
-None	None	122199241	spe
-1150919317	micro	None	None
-None	None	202446260	ieee sap
-None	None	139930977	jair
-None	None	112676551	ibmsj
-None	None	163326656	toms
-None	None	128556326	jct
-None	None	151820558	prl
-None	None	80113298	jasis
-None	None	89324355	algorithmica
-None	None	110520077	jal
-None	None	19032547	bmc bioinformatics
-None	None	84775595	tvcg
-None	None	67831204	cgf
-None	None	63392143	comput netw
-None	None	163019073	aim
-None	None	114241109	expert
-None	None	174847851	ipm
-None	None	3084184	cn
-None	None	84409463	acta
-None	None	38883057	inform management
-None	None	103671469	dcg
-None	None	1520695	siam journal on scientific and statistical computing
-None	None	177675236	jsyml
-None	None	37538908	vlsi
-None	None	205498627	winet
-None	None	78571599	jcb
-None	None	171741597	dam
-None	None	192650101	isci
-None	None	44643521	cj
-None	None	17421805	cad
-None	None	173256270	cor
-None	None	897311980	siam
-None	None	142627899	tosem
-None	None	150671403	cce
-None	None	87725633	tr
-None	None	130252234	transportation science
-None	None	93468912	presence
-None	None	205899252	internet
-None	None	133768115	ras
-None	None	191798613	networks
-None	None	21029587	scp
-None	None	154637859	signal processing
-None	None	57667410	annals or
-1182309694	dss	None	None
-None	None	165318533	informs
-None	None	190936789	joc
-None	None	89276529	tochi
-None	None	182161918	j dyn syst meas contr
-1174915412	ec	None	None
-None	None	142305363	computer physics communications
-None	None	128025751	speech communication
-None	None	72366220	combinatorica
-None	None	137030581	tmm
-None	None	70478294	jlp
-None	None	18902827	dm
-None	None	18904315	jsc
-None	None	144091109	arobots
-None	None	146764194	ieee wireless communications
-None	None	50372074	amc
-None	None	37879656	jss
-None	None	69141925	tmc
-1133523790	vldb	None	None
-None	None	111482492	comput struct
-None	None	135221619	cagd
-None	None	13144211	eswa
-None	None	148561398	scientometrics
-None	None	193006928	is
+1143723981	infocom
+1164321581	siggraph
+1158167855	cvpr
+1133523790	vldb
+1190910084	stoc
+1150208541	focs
+1163450153	chi
+1123349196	mobicom
+1127325140	nips
+1184914352	aaai
+1203999783	ijcai
+148324379	popl
+1164975091	iccv
+1180662882	icml
+1187904452	dac
+1140684652	sigir
+1130985203	kdd
+1174403976	icse
+1175089206	sigmod
+1153524033	crypto
+1152462849	sigcomm
+1163902177	icra
+1135342153	www
+1188739475	acl
+1124077590	eccv
+1163988186	icde
+1140213147	eurocrypt
+5240358	ieee trans biomed eng
+1176978676	vtc
+1195049314	cscw
+1163618098	s&p
+1121227772	icassp
+1184151122	pods
+1192710900	iscas
+1128132410	iccad
+1198471430	ccs
+1130451194	icc
+1165622107	itc
+1164762582	ispd
+1130177464	soda
+1150919317	micro
+1151146444	mobihoc
+1162450063	cav
+1135237122	mm
+1200222865	icdcs
+1124527938	rtss
+1198780418	cdc
+1140070953	podc
+1131341566	isca
+5405189	aamas
+1204606053	uai
+1171002971	lics
+1140680567	ismb
+1166315290	uist
+1141821850	icalp
+1177184315	ecoop
+1163163559	icip
+1171178643	sosp
+1143959562	socg
+1155137614	kr
+1120728542	islped
+1143279144	iros
+1185109434	osdi
+1131605622	icpr
+1155608529	iswc
+1161772829	ipsn
+1138550902	sensys
+1164519180	hicss
+1169674987	coling
+151317046	4or
+1194094125	cikm
+1126329156	hpca
+1180274659	ndss
+1178330879	date
+1145706541	concur
+1127352206	pldi
+1200052134	cec
+1163279258	wcnc
+1191753779	ipdps
+1136691831	ics
+1141854641	hpdc
+1161424158	isnn
+1126322613	icme
+1156688768	icnp
+1165838108	i3d
+1155899826	icpp
+1138732554	oopsla
+1159477486	spaa
+1134913378	nossdav
+1173951661	naacl
+1177622950	colt
+1158363782	nsdi
+1201110412	iclp
+1159071770	tacas
+1197656824	isit
+1162831978	ecai
+1183478919	icdm
+1160919455	icsm
+1193787109	ppsn
+1171922823	fccm
+1200430907	egsr
+1140000399	gecco
+1136755600	fpga
+183285281	ac
+1171345118	ubicomp
+1149327232	wsc
+1201491352	cp
+1134440762	cade
+1188965700	recomb
+1131589359	sigmetrics
+1127098075	ches
+1163163559	icip
+1170221290	iui
+1132593990	edbt
+1186985151	iccd
+1198654179	bmvc
+1187160151	dsn
+1136861413	esop
+1180389419	ecscw
+1185773761	dcc
+1124125381	vts
+1176514135	er
+1134494671	pact
+103482838	cacm
+199944782	pami
+4502562	tit
+68686220	pieee
+196647941	tcom
+196139623	ai
+90422530	jsac
+8351582	tse
+118992489	jacm
+148324379	popl
+52395412	bioinformatics
+66039016	ccr
+178916657	computer
+157670870	tc
+47508943	sigmod record
+115304631	ieee transactions on image processing
+25538012	ijcv
+168680287	tsp
+157921468	csur
+153560523	siamcomp
+131921510	computer graphics
+76152103	tsmc
+207023548	neco
+62238642	ton
+11296630	jasa
+185367456	tog
+62148650	ml
+51360982	automatica
+42080949	ieee transactions on neural networks
+50071195	sigops
+125775545	operations research
+103321696	ejor
+60379886	acm sigarch computer architecture news
+90119964	tods
+141020589	jcss
+90727058	tcs
+169411308	fss
+116420536	ieee trans robotics automat
+40006715	comput method appl mech eng
+414566	pr
+115173108	tcsv
+59933527	iandc
+193920097	mathematical programming
+123019304	neural networks
+30698027	tkde
+73484101	ijrr
+41449414	toplas
+193109227	tocs
+165651092	int j numer method eng
+191421250	corr
+6725529	software
+87067389	tois
+137436721	cvgip
+105380075	cga
+134177497	tfs
+129573059	ijmms
+155526855	coli
+97130795	tpds
+77200987	siamam
+106390105	ibmrd
+118988714	jmlr
+1131589359	sigmetrics
+93787993	tec
+202812398	isr
+185008460	cviu
+63459445	twc
+186584794	network
+186921487	acm sigsoft software engineering notes
+55826652	mor
+88061139	int j contr
+157146593	jpdc
+165512578	siam journal on scientific computing
+177430994	ivc
+147953040	ipl
+122199241	spe
+1150919317	micro
+202446260	ieee sap
+139930977	jair
+112676551	ibmsj
+163326656	toms
+128556326	jct
+151820558	prl
+80113298	jasis
+89324355	algorithmica
+110520077	jal
+19032547	bmc bioinformatics
+84775595	tvcg
+67831204	cgf
+63392143	comput netw
+163019073	aim
+114241109	expert
+174847851	ipm
+3084184	cn
+84409463	acta
+38883057	inform management
+103671469	dcg
+1520695	siam journal on scientific and statistical computing
+177675236	jsyml
+37538908	vlsi
+205498627	winet
+78571599	jcb
+171741597	dam
+192650101	isci
+44643521	cj
+17421805	cad
+173256270	cor
+897311980	siam
+142627899	tosem
+150671403	cce
+87725633	tr
+130252234	transportation science
+93468912	presence
+205899252	internet
+133768115	ras
+191798613	networks
+21029587	scp
+154637859	signal processing
+57667410	annals or
+1182309694	dss
+165318533	informs
+190936789	joc
+89276529	tochi
+182161918	j dyn syst meas contr
+1174915412	ec
+142305363	computer physics communications
+128025751	speech communication
+72366220	combinatorica
+137030581	tmm
+70478294	jlp
+18902827	dm
+18904315	jsc
+144091109	arobots
+146764194	ieee wireless communications
+50372074	amc
+37879656	jss
+69141925	tmc
+1133523790	vldb
+111482492	comput struct
+135221619	cagd
+13144211	eswa
+148561398	scientometrics
+193006928	is
