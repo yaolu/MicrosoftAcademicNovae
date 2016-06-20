@@ -1,0 +1,4 @@
+{% for field in fields %}
+	<span name="label-click" onclick="start_search('{{field.message}}')" class="label label-primary click-span"  style="margin: 2px; background-color: {{field.color |default ("rgb(51,122,183)")}}" value="{{field.message}}" >{{field.message}}
+	</span>
+{% endfor %}

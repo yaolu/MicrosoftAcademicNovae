@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A short quiz</title>
+    
+    <link href="{{ url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet">
+    <script type="text/javascript" src=" {{ url_for('static',filename='tree_curve.js')}} "></script>
+    <script src="{{ url_for('static',filename='d3.min.js')}}" charset="utf-8"></script>
+    <script src="{{ url_for('static',filename='jquery-3.0.0.min.js')}}" charset="utf-8"></script>
+    <script type="text/javascript"  src="{{ url_for('static',filename='endlesspage.js')}} " ></script>
+    <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+  </head>
+  <body>
+    <div class="tooltip shadow" style="opacity:0; background-color: #fcfcfc; padding: 5px; padding-right: 10px;" >
+    </div>
+    <div class="container-fluid" style="width: 110%; min-width: 1400px; max-width: 1800px;">
+      <div class="row navbar-fixed-top" style="background:rgb(81,60,109);  ">
+        <div class="row" style="width: 800px; ">
+          
+          <div class="col-xs-2" style="margin: 15px; margin-left: 25px; margin-bottom:10px; width: 150px; padding-left: 30px;">
+              <img  src="{{ url_for('static',filename='pic/logo.png')}}" style=" width: 145%; height: 145%;" >
+          </div>
+
+          <div class="col-xs-4" style="margin: 15px; margin-bottom: 10px; width: 500px; margin-left: 40px;">
+            <form class="search_form" onsubmit="return false;" style="float: left; width: 600px;">
+              <div class="inner-addon right-addon" style="height: 40px; " >
+                <img id="img-search" src="{{ url_for('static',filename='pic/search.png')}} " class="fa fa-search" >
+                <input id="search-form" class="form-control" value="{{search_input}}" style="height: 40px;" placeholder="Field Name: such as computer vision" type="text" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row" style="background-color: #ffffff;  padding-top: 65px;">
+        <div class="col-xs-2 shadow" style="position: fixed; width: 200px; height: 600px; background-color: #fcfcfc;">
+          <div class="row select-panel">
+            <span class="glyphicon glyphicon-plus" style="margin-top: 40px; margin-left: 45px; padding-left: 2px;">
+              学术年龄
+            </span>
+            <ul class="ul-class">
+              <li>
+                <input name="chkItem" type="checkbox"  style="white-space: nowrap;" value="age:0-5"> 
+                  <span class="check-box">
+                    0-5
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input  name="chkItem" type="checkbox" style="white-space: nowrap;" value="age:5-10"> 
+                  <span class="check-box">
+                    5-10
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox" style="white-space: nowrap;" value="age:10-20"> 
+                  <span class="check-box">
+                    10-20
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox" style="white-space: nowrap;" value="age:20-30"> 
+                  <span class="check-box">
+                    20-30
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox"  style="white-space: nowrap;" value="age:30-200"> 
+                  <span class="check-box">
+                    30以上
+                  </span>
+                 </input>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row select-panel">
+            <span class="glyphicon glyphicon-plus" style="margin-top: 40px; margin-left: 45px; padding-left: 2px;">
+              学术机构
+            </span>
+            <ul class="ul-class"> 
+              <li>
+                <input name="chkItem" type="checkbox"  style="white-space: nowrap;" value="AfN:CMU"> 
+                  <span class="check-box">
+                    CMU
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox" style="white-space: nowrap;" value="AfN:TJU"> 
+                  <span class="check-box">
+                    TJU
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox" style="white-space: nowrap;" value="AfN:UCLA"> 
+                  <span class="check-box">
+                    UCLA
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox" style="white-space: nowrap;" value="AfN:THU"> 
+                  <span class="check-box">
+                    THU
+                  </span>
+                </input>
+              </li>
+              <li>
+                <input name="chkItem" type="checkbox"  style="white-space: nowrap;" value="AfN:NJU"> 
+                  <span class="check-box">
+                    NJU
+                  </span>
+                 </input>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+        <div class="col-xs-10" style="margin-left: 200px; padding-left: 5px; float: left;" style="width: 905px;">
+
+          <div class="row">
+            <div class="col-xs-12 fields_list" style="padding: 5px; padding-left: 35px; width:850px;">
+              {% for field in fields %}
+                <span name="label-click" onclick="start_search('{{ field.message }}')" class="label label-primary click-span"  style=" background-color: {{field.color |default ("rgb(51,122,183)")}}" value="{{field.message}}" >{{field.message}}</span>
+              {% endfor %}
+            </div>
+          </div>
+
+          <div class="row" >            
+            <div class="col-xs-12 people_list" style="padding-left: 20px;">
+              {% include "people_card.html"%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var min_score = {{min_score}}
+
+    </script>
+  </body>
+
+</html>

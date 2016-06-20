@@ -1,0 +1,133 @@
+body            { font-family: sans-serif; background: #eee; }
+a, h1, h2       { color: #377BA8; }
+h1, h2          { font-family: 'Georgia', serif; margin: 0; }
+h1              { border-bottom: 2px solid #eee; }
+h2              { font-size: 1.2em; }
+
+.page           { margin: 2em auto; width: 35em; border: 5px solid #ccc;
+                  padding: 0.8em; background: white; }
+.entries        { list-style: none; margin: 0; padding: 0; }
+.entries li     { margin: 0.8em 1.2em; }
+.entries li h2  { margin-left: -1em; }
+.add-entry      { font-size: 0.9em; border-bottom: 1px solid #ccc; }
+.add-entry dl   { font-weight: bold; }
+.metanav        { text-align: right; font-size: 0.8em; padding: 0.3em;
+                  margin-bottom: 1em; background: #fafafa; }
+.flash          { background: #CEE5F5; padding: 0.5em;
+                  border: 1px solid #AACBE2; }
+.error          { background: #F0D6D6; padding: 0.5em; }
+
+.node circle { stroke-width: 0.5px;  stroke: #fff;}
+.node { fill:none; font: 10px sans-serif;}
+.nodep circle { stroke-width: 0.5px;  stroke: #fff;}
+.nodep { fill:none; font: 10px sans-serif;}
+.link {  fill: none;  stroke: #ccc;  stroke-opacity: 0.6;  stroke-width: 1.5px;}
+.node text {  font: 10px sans-serif;}
+
+
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  white-space: nowrap;                              
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: lightsteelblue;   
+  border: 0px;      
+  border-radius: 3px;           
+  pointer-events: none; 
+}
+
+div.container{
+	margin: 10px;
+
+
+}
+
+.inner-addon { 
+    position: relative;
+    padding-right: 10px;
+}
+
+/* style icon */
+.inner-addon .fa {
+  position: absolute;
+  padding: 5px;
+  cursor: pointer;
+}
+
+/* align icon */
+.right-addon .fa { right: 0px; 
+	background:rgb(240, 220, 50); 
+	width: 35px; 
+	height: 33px; 
+	margin-bottom: 3px; 
+	margin-left: 13px;
+	margin-top: 3px; 
+	margin-right: 13px;
+}
+
+/* add padding  */
+.right-addon input { padding-right: 40px; 
+					-webkit-border-radius: 0px;
+				    -moz-border-radius: 0px;
+				    border-radius: 0px;}
+
+.shadow {
+
+	/*
+	第一个参数是x轴阴影段长度
+	第二个参数是y轴阴影段长度
+	第三个参数是往四周阴影段长度
+	第四个参数是阴影段颜色
+	*/
+    box-shadow:0px 0px 10px #aaaaaa;
+    -moz-box-shadow:0px 0px 10px #aaaaaa;
+    -webkit-box-shadow:0px 0px 10px #aaaaaa;
+	/*direction 阴影角度 0°为从下往上 顺时针方向 strength 阴影段长度*/
+    -ms-filter:"progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)\
+                progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6)";
+    *filter:progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=0, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=90, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=180, strength=6)
+            progid:DXImageTransform.Microsoft.Shadow(color=#E9E9E9, direction=270, strength=6);
+}
+
+
+.check-box{
+	padding-left: 10px;
+
+}
+
+.select-panel ul{
+	list-style-type:none; 
+	margin-left: 6px;
+	padding-top: 3px;
+}
+
+.text-overflow {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.overflow {
+	white-space:nowrap;
+	overflow:hidden;
+}
+
+
+.img-click{
+	cursor: pointer;
+}
+
+.label{
+	cursor: pointer;
+}
+
+.label-click{
+	cursor: pointer;
+}
+

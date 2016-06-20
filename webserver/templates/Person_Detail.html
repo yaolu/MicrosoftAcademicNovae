@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A short quiz</title>
+    
+    <link href="{{ url_for('static',filename='css/bootstrap.min.css')}}" rel="stylesheet">
+    <script src="{{ url_for('static',filename='d3.min.js')}}" charset="utf-8"></script>
+    <script src="{{ url_for('static',filename='jquery-3.0.0.min.js')}}" charset="utf-8"></script>
+    <script type="text/javascript"  src="{{ url_for('static',filename='Person_Detail.js')}} " ></script>
+    <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+  </head>
+  <body>
+	  <div class="tooltip shadow" style="opacity:0; background-color: #fcfcfc; padding: 5px; padding-right: 10px;" >
+    </div>
+
+    <div class="container-fluid" style="width: 100%; min-width: 1400px; max-width: 1800px;  background-color: #fcfcfc;">
+      <div class="row navbar-fixed-top" style="padding-bottom: 0px; margin-top: :0px;">
+        <div class="row" style="background:rgb(81,60,109); position: fixed; width: 110%">
+
+          <div class="col-xs-2" style="margin: 15px; margin-left: 25px; margin-bottom:10px; width: 150px; padding-left: 30px;">
+              <img  src="{{ url_for('static',filename='pic/logo.png')}}" style=" width: 145%; height: 145%;" >
+          </div>
+
+          <div class="col-xs-4" style="margin: 15px; margin-bottom: 10px; width: 500px; margin-left: 40px;">
+            <form class="search_form" onsubmit="return false;" style="float: left; width: 600px;">
+              <div class="inner-addon right-addon" style="height: 40px; " >
+                <img id="img-search" src="{{ url_for('static',filename='pic/search.png')}} " class="fa fa-search" >
+                <input id="search-form" class="form-control" value="{{search_input}}" style="height: 40px;" placeholder="Field Name: such as computer vision" type="text" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="row shadow" style="margin-top: 65px; width: 95%; background-color: #fcfcfc; margin-bottom: 10px; padding-bottom: 10px; padding-top: 2px; width: 1138px;">
+			    {% include "fields_list.html" %}
+			</div>
+
+			<div id="author_detail" class="row " style=" width: 100%; background-color: #fcfcfc">
+
+				<div name="left_bar " class="col-xs-2 shadow" style="min-height: 600px;">
+
+					<div class="row" style="width: 120px; margin-top: 20px; ">
+		        <div class="col-xs-6" style="width:70px;">
+		          <img src="{{ url_for('static',filename='pic/people/'~root.pic_id~'.png')}}" onclick="person_detail({{root.id}})" class="img-circle img-click" style="max-width: 50px;max-height: 50px;">
+		        </div>
+		        <div class="col-xs-offset-1" style="width: 4px"></div>
+		        <div class="col-xs-5" style="width: 50px;">
+		          <div class="row text-overflow" style="width: 200px; margin-top: 10px;" title="{{root.name}}">
+		            {{root.name}}
+		          </div>
+		          <div class="row" style="font-size:10px; ">
+		            {{root.academic_year}} years
+		          </div>
+		        </div>
+		      </div>
+      
+		      <div class="row" style="padding-left: 15px; padding-top: 4px; ">
+		        <ul style="padding-left: 15px;">
+		          {% for Af in root.Af %}
+		            <li style="margin-bottom: 2px;">
+			            <div class="text-overflow" style="width: 190px;">
+			              <span title="{{Af.description}}" style=" font-size:10px; white-space: nowrap"> {{Af.description}} </span>
+			            </div>
+		            </li>
+		          {% endfor %}
+		        </ul>
+		      </div>
+
+				</div>
+		    
+		    <div class="col-xs-7 shadow" style="margin-left: 10px; min-width: 900px; min-height: 900px; padding: 0px; padding-left: 5px; ">
+		      <div id="id-{{root.id}}"></div>
+		      <script type="text/javascript" >
+		        show_tree('{{root|tojson}}')
+		      </script>
+		    </div>
+
+		  </div>
+    </div>
+  </body>
+
+
+
+
+
+ </html>

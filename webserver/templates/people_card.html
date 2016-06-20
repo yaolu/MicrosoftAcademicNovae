@@ -1,0 +1,58 @@
+{% for root in roots%}
+<span style="float: left">
+  <div class="shadow" style="width: 300px; height: 185px; margin: 10px; background-color: #fcfcfc">
+      <div class="row" >
+		<div class="row" style=" margin-left: 15px; margin-top: 0px; margin-bottom: 0px;">
+		    <div class="col-xs-5" style="width: 115px; padding-left: 15px; padding-top: 15px;">
+		      
+		      <div class="row" style="width: 120px;">
+		        <div class="col-xs-6" style="width:70px;">
+		          <img src="{{ url_for('static',filename='pic/people/'~root.pic_id~'.png')}}" onclick="person_detail({{root.id}})" class="img-circle img-click" style="max-width: 50px;max-height: 50px;">
+		        </div>
+		        <div class="col-xs-offset-1" style="width: 4px"></div>
+		        <div class="col-xs-5" style="width: 50px;">
+		          <div class="row text-overflow" style="width: 100px; margin-top: 10px;" title="{{root.name}}">
+		            {{root.name}}
+		          </div>
+		          <div class="row" style="font-size:10px; ">
+		            {{root.academic_year}} years
+		          </div>
+		        </div>
+		      </div>
+
+		      <div class="row overflow overflow" style="padding-left: 20px; margin-top: 5px; width: 120px;">
+		        {% for field in root.fields %}
+		          <div name="label-click overflow" onclick="start_search('{{field.message}}')" class="label label-primary " style="margin-left: 2px; float: left; padding-right: 2px;width: 30px; font-size: 8px; background-color: {{field.color |default ("rgb(51,122,183)")}}" value="{{field.message}}" title="{{field.message}}">{{field.message}}
+		          </div>
+		        {% endfor %}
+		      </div>
+		      <div class="row" style="padding-left: 15px; padding-top: 4px; ">
+		        <ul style="padding-left: 15px;">
+		          {% for Af in root.Af %}
+		            <li style="margin-bottom: 2px;">
+			            <div class="text-overflow" style="width: 120px;">
+			              <span title="{{Af.description}}" style=" font-size:10px; white-space: nowrap"> {{Af.description}} </span>
+			            </div>
+		            </li>
+		          {% endfor %}
+		        </ul>
+		      </div>
+		    </div>
+		    <div class="col-xs-7" style="width: 167px; padding: 0px; padding-left: 5px; margin-bottom: -20px;">
+		      <div id="id-{{root.id}}"></div>
+		      <script type="text/javascript" > 
+		        show_tree('{{root|tojson}}')
+		      </script>
+		    </div>
+	    </div>
+	    <div class="row" align="center" style="font-size: 10px;">
+    	    {{root.num}}
+    	</div>
+
+	  </div>
+    
+    
+
+  </div>
+</span>
+{% endfor %}

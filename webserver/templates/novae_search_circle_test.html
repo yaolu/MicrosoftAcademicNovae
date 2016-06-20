@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>A short quiz</title>
+    
+    <link href="//cdn.bootcss.com/bootstrap/4.0.0-alpha.2/css/bootstrap.css" rel="stylesheet">
+    <script type="text/javascript" src=' {{ url_for('static',filename='tree_curve.js')}} '></script>
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <link rel=stylesheet type=text/css href='{{ url_for('static',filename='style_lulu.css')}}'>
+  </head>
+  <body>
+    <div id="relevanceRuleConfig"></div>
+    <div class="tooltip" style="opacity:0;" >
+    <div id="text1">7777</div>
+      
+      {% for root in roots%}
+        <script type="text/javascript" > 
+          show_tree('{{root|tojson}}')
+        </script>
+      {% endfor %}
+  </body>
+
+</html>
