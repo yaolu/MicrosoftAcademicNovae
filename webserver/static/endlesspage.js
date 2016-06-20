@@ -54,7 +54,7 @@ $(function()
 {   
 	$("#img-search").click(function()
 	{
-		start_search("");
+		start_search($("#search-form").val() );
 	});
 });
 

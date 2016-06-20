@@ -249,10 +249,10 @@ def get_roots(commands):
 			desc_l.append("Cited Num: " + str(paper[3]))  #cited CC
 			desc_l.append("Publish Year: "+ str(paper[2]))
 			Top = False
-			if paper[4]:
+			if paper[4] and paper[5]:
 				desc_l.append("Publish Journal: "+paper[5])
 				Top = JId_is_Top(paper[4])
-			elif paper[6]:
+			elif paper[6] and paper[7]:
 				desc_l.append("Publish Conference: "+paper[7])
 				Top = CId_is_Top(paper[6])
 			else:
@@ -483,5 +483,5 @@ def require_detail(pid):
 
 if __name__ =='__main__':
 	init_dict()
-	app.run(host='127.0.0.1',port=5000, debug=True)
+	app.run(host='0.0.0.0',port=5000, debug=True)
 	
