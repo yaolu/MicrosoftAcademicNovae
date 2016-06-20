@@ -2,7 +2,13 @@ var page_num=1;
 var loading=false;
 var select_condition = new Array();
 var command = "";
-var min_score = "1000000";
+
+if(typeof(min_score)=='undefined')
+{
+	var min_score = "1000000";
+}
+
+
 $.getData = function() {
   page_num += 1;
   $.ajax({
@@ -54,7 +60,7 @@ $(function()
 {   
 	$("#img-search").click(function()
 	{
-		start_search("");
+		start_search($("#search-form").val());
 	});
 });
 
@@ -66,6 +72,15 @@ function bind_label_click(){
 			    start_search(command)
 		  	});
   }); 
+
+  $("[name = chkItem]:checkbox").each(function () {
+		$(this).on('click',function(){
+		  	command = $("#search-form").val()
+		    start_search(command)
+	  	});
+    });
+
+
 
 }
 
