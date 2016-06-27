@@ -1,0 +1,487 @@
+
+AuId	2296745056
+now_work_for	67357951
+History_Afflication	
+ibm	2002-2014
+kiit university	2011-2016
+None	1974-2015
+
+Fields	
+
+Field_Name	computer science
+label_color	rgb(51, 122, 183)
+
+
+Field_Name	computer network
+label_color	rgb(92, 184, 92)
+
+
+Field_Name	communications protocol
+label_color	rgb(92, 184, 92)
+
+first_page_year	1974
+now_year	2016
+Author_Name	arup acharya
+total_CC	999
+first author paper	
+
+Publish Conference	icdcs
+Publish Year	1993
+Cited Num	70
+Title	Delivering multicast messages in networks with mobile hosts
+
+
+Publish Conference	infocom
+Publish Year	1996
+Cited Num	60
+Title	IP multicast extensions for mobile internetworking
+
+
+Publish Journal	ieee wireless communications
+Publish Year	2003
+Cited Num	38
+Title	High-performance architectures for IP-based multihop 802.11 networks
+
+
+Publish Journal	winet
+Publish Year	1996
+Cited Num	37
+Title	A Framework for the Delivery of Multicast Messages in Networks with Mobile Hosts
+
+
+Publish Journal	ipl
+Publish Year	1992
+Cited Num	19
+Title	Recording distributed snopshots based on causal order of message delivery
+
+
+Publish Journal	jsac
+Publish Year	2006
+Cited Num	19
+Title	DCMA: A Label Switching MAC for Efficient Packet Forwarding in Multihop Wireless Networks
+
+
+Publish Journal	ipl
+Publish Year	1992
+Cited Num	8
+Title	Recording distributed snapshots based on casual order of message delivery
+
+
+Publish Conference	icc
+Publish Year	2003
+Cited Num	3
+Title	ts-PWLAN: a value-add system for providing tiered wireless services in public hot-spots
+
+
+Publish Conference	ipdps
+Publish Year	1991
+Cited Num	1
+Title	An efficient protocol for ordering broadcast messages in distributed systems
+
+
+Publish Journal	sigops
+Publish Year	2008
+Cited Num	1
+Title	SIP message classification: design and performance
+
+
+Publish Year	1994
+Cited Num	125
+Title	Checkpointing distributed applications on mobile computers
+
+
+Publish Journal	ieee commun mag
+Publish Year	1997
+Cited Num	103
+Title	Mobility management in wireless ATM networks
+
+
+Publish Journal	monet
+Publish Year	1996
+Cited Num	95
+Title	A framework for delivering multicast message in networks with mobile hosts
+
+
+Publish Conference	pervasive
+Publish Year	2003
+Cited Num	92
+Title	MACA-P: a MAC for concurrent transmissions in multi-hop wireless networks
+
+
+Publish Conference	wowmom
+Publish Year	2002
+Cited Num	52
+Title	A label-switching packet forwarding architecture for multi-hop wireless LANs
+
+
+Publish Conference	broadnets
+Publish Year	2004
+Cited Num	35
+Title	Design and analysis of a cooperative medium access scheme for wireless mesh networks
+
+
+Publish Year	1991
+Cited Num	21
+Title	in Distributed Systems
+
+
+Publish Conference	mobimedia
+Publish Year	1997
+Cited Num	21
+Title	Handoff and Location Management in Mobile ATM Networks
+
+
+Publish Year	1996
+Cited Num	19
+Title	Primitives for Location Management and Handoff in Mobile ATM Networks
+
+
+Publish Journal	ieee commun mag
+Publish Year	1998
+Cited Num	19
+Title	Mobility support for IP over wireless ATM
+
+
+Publish Year	1995
+Cited Num	17
+Title	A WWW-based Location-Dependent Information Service for Mobile Clients
+
+
+Publish Year	1997
+Cited Num	15
+Title	Design and prototyping of location management and handoff protocols for wireless ATM networks
+
+
+Publish Journal	ieee commun mag
+Publish Year	2004
+Cited Num	13
+Title	airConn: A framework for tiered services in public wireless LAN hot spots
+
+
+Publish Year	1999
+Cited Num	11
+Title	IP multicast support in MPLS
+
+
+Publish Conference	pervasive
+Publish Year	2009
+Cited Num	11
+Title	Programmable presence virtualization for next-generation context-based applications
+
+
+Publish Year	2001
+Cited Num	9
+Title	Scalable Web Request Routing with MPLS
+
+
+Publish Year	2007
+Cited Num	8
+Title	Real-time monitoring of SIP infrastructure using message classification
+
+
+Publish Conference	ancs
+Publish Year	2007
+Cited Num	7
+Title	A programmable message classification engine for session initiation protocol (SIP)
+
+
+Publish Year	1994
+Cited Num	6
+Title	DATAMAN project: Towards a Mosaic-like Location-Dependant Information Service for Mobile Clients
+
+
+Publish Year	1997
+Cited Num	6
+Title	IPSOFACTO : IP Switching Over Fast ATM Cell Transport
+
+
+Publish Conference	globecom
+Publish Year	1997
+Cited Num	6
+Title	IP switching over fast ATM cell transport (IPSOFACTO): switching multicast flows
+
+
+Publish Year	1997
+Cited Num	5
+Title	Mobile ATM: architecture, protocols and implementation
+
+
+Publish Year	1997
+Cited Num	5
+Title	Comparison of Location Management Schemes for Mobile ATM
+
+
+Publish Year	1999
+Cited Num	5
+Title	IP multicast support in MPLS networks
+
+
+Publish Year	2002
+Cited Num	5
+Title	Using Mobility Support for Request-Routing in IPv6 CDNs
+
+
+Publish Year	2003
+Cited Num	5
+Title	Dynamic service discovery
+
+
+Publish Conference	pervasive
+Publish Year	2005
+Cited Num	5
+Title	Unleashing the power of wearable devices in a SIP infrastructure
+
+
+Publish Journal	ijacsa
+Publish Year	2010
+Cited Num	5
+Title	Model Based Test Case Prioritization for Testing Component Dependency in CBSD Using UML Sequence Diagram
+
+
+Publish Journal	international journal of computer applications
+Publish Year	2012
+Cited Num	4
+Title	A Novel Approach for Test Case Prioritization using Business Criticality Test Value
+
+
+Publish Year	2008
+Cited Num	3
+Title	Presence virtualization middleware for next-generation converged applications
+
+
+Publish Year	2010
+Cited Num	3
+Title	Component Interaction Graph: A new approach to test component composition
+
+
+Publish Year	1998
+Cited Num	1
+Title	Dynamic QoS for IP switching using RSVP over IPSOFACTO
+
+
+Publish Journal	ngc
+Publish Year	1999
+Cited Num	1
+Title	Native IP Multicast Support in MPLS
+
+
+Publish Year	2000
+Cited Num	1
+Title	Structural dynamic problems in space launch vehicle systems development
+
+
+Publish Journal	percom
+Publish Year	2003
+Cited Num	1
+Title	Maca-p: A mac protocol to improve parallelism in multi-hop wireless networks
+
+
+Publish Conference	im
+Publish Year	2011
+Cited Num	1
+Title	Presence based network topology tracing system for VoIP networks
+
+
+Publish Conference	im
+Publish Year	2013
+Cited Num	1
+Title	Presence based open contact center leveraging social networks
+
+
+Publish Year	2015
+Cited Num	1
+Title	Model Based Test Case Prioritization Using Association Rule Mining
+
+
+Publish Year	1995
+Cited Num	0
+Title	SERVICES FOR NETWORKS WITH MOBILE HOSTS
+
+
+Publish Year	1996
+Cited Num	0
+Title	Handoff-control technique for wireless ATM
+
+
+Publish Year	1996
+Cited Num	0
+Title	Method for internet protocol switching over fast ATM cell transport
+
+
+Publish Year	1997
+Cited Num	0
+Title	Framework for IP switching over fast ATM cell transport (IPSOFACTO)
+
+
+Publish Year	1998
+Cited Num	0
+Title	Hand-off control technique for wireless ATM network
+
+
+Publish Year	1998
+Cited Num	0
+Title	System and method of transferring internet protocol packets using fast ATM cell transport
+
+
+Publish Year	2000
+Cited Num	0
+Title	Validation of network communication tunnels
+
+
+Publish Year	2001
+Cited Num	0
+Title	Method and apparatus for content-aware web switching
+
+
+Publish Year	2002
+Cited Num	0
+Title	Virtualization of iSCSI storage
+
+
+Publish Year	2003
+Cited Num	0
+Title	System and apparatus for geographically distributed VoIP conference service with enhanced QoS
+
+
+Publish Year	2003
+Cited Num	0
+Title	Enabling collaborative applications using Session Initiation Protocol (SIP) based Voice over Internet protocol Networks (VoIP)
+
+
+Publish Year	2003
+Cited Num	0
+Title	Differentiated handling of SIP messages for VoIP call control
+
+
+Publish Year	2004
+Cited Num	0
+Title	Design and analysi s of a cooperative medium access scheme for high-performance wireless mesh networ
+
+
+Publish Year	2004
+Cited Num	0
+Title	Method and apparatus for integrating wearable devices within a SIP infrastructure
+
+
+Publish Year	2006
+Cited Num	0
+Title	Overload protection for SIP servers
+
+
+Publish Year	2006
+Cited Num	0
+Title	Method and apparatus for providing contextual information with telephone calls
+
+
+Publish Year	2006
+Cited Num	0
+Title	Differentiated connectivity in a pay-per-use public data access system
+
+
+Publish Year	2008
+Cited Num	0
+Title	Method and system for efficient and reliable MAC-layer multicast wireless transmissions
+
+
+Publish Year	2008
+Cited Num	0
+Title	Method for Monitoring SIP Call-Flows by Tracking Message Transformation
+
+
+Publish Year	2008
+Cited Num	0
+Title	Method and Apparatus for Autonomically Regulating Ratio of Stateful to Stateless Transaction Processing for Increasing Scalability in a Network of SIP Servers
+
+
+Publish Year	2008
+Cited Num	0
+Title	Method of transferring internet protocol packets by the use of fast ATM cell transport and network for performing the method
+
+
+Publish Year	2009
+Cited Num	0
+Title	Urban Runoff Response due to Climate Change
+
+
+Publish Year	2010
+Cited Num	0
+Title	Network route control
+
+
+Publish Year	2011
+Cited Num	0
+Title	SYSTEMS AND METHODS FOR SERVICE ASSURANCE USING VIRTUALIZED FEDERATED PRESENCE INFRASTRUCTURE
+
+
+Publish Conference	iptcomm
+Publish Year	2011
+Cited Num	0
+Title	Pressentials : a flexible middleware for presence-enabled applications
+
+
+Publish Year	2011
+Cited Num	0
+Title	SIP based VoIP multiplayer network games
+
+
+Publish Year	2012
+Cited Num	0
+Title	Programmable presence virtualization
+
+
+Publish Year	2012
+Cited Num	0
+Title	SYSTEMS AND METHODS FOR CREATING SCALABLE PRESENCE SUBSCRIPTIONS IN FEDERATED PRESENCE ENVIRONMENTS
+
+
+Publish Year	2012
+Cited Num	0
+Title	Method and Apparatus for Leveraging Social Media for Pro-Active Customer Notification
+
+
+Publish Year	2012
+Cited Num	0
+Title	VIRTUALIZING HUMAN AGENTS ACROSS MULTIPLE LOCATIONS
+
+
+Publish Year	2013
+Cited Num	0
+Title	Failure Analysis Of Rear Axle Of A Tractor With Loaded Trolley
+
+
+Publish Year	2013
+Cited Num	0
+Title	Virtual presence server
+
+
+Publish Journal	ieee pervasive computing
+Publish Year	2013
+Cited Num	0
+Title	Context-Based Applications in Converged Networks: Beyond SIMPLE Presence
+
+
+Publish Year	2014
+Cited Num	0
+Title	Clustering Crowdsourced Videos by Line-of-Sight
+
+
+Publish Year	2014
+Cited Num	0
+Title	The Talking Cloud: A Cloud Platform for Enabling Communication Mashups
+
+
+Publish Year	2015
+Cited Num	0
+Title	METHOD FOR REAL-TIME VIRAL EVENT PREDICTION FROM SOCIAL DATA
+
+
+Publish Year	2015
+Cited Num	0
+Title	Managing a subscription hierarchy in presence systems
+
+
+Publish Year	2015
+Cited Num	0
+Title	RETRIEVING INDEXED VIDEO AND TEXT CONTENT USING CONTEXT EXTRACTED FROM INCOMING IMAGES
+
+academic_age	42
