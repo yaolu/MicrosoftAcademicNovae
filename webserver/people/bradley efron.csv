@@ -1,0 +1,915 @@
+
+AuId,426874850
+now_work_for,97018004
+History_Afflication,
+stanford university medical center,2014-2014
+stanford university,1970-2016
+None,1963-2015
+
+Fields,
+
+Field_Name,mathematics
+label_color,rgb(51, 122, 183)
+
+
+Field_Name,statistics
+label_color,rgb(92, 184, 92)
+
+
+Field_Name,confidence interval
+label_color,rgb(91, 192, 222)
+
+first_page_year,1963
+now_year,2016
+Author_Name,bradley efron
+total_CC,47968
+first author paper,
+
+Publish Journal,technometrics
+Publish Year,1993
+Cited Num,16433
+Title,An introduction to the Bootstrap
+
+
+Publish Journal,ann statist
+Publish Year,1979
+Cited Num,6420
+Title,Bootstrap Methods: Another Look at the Jackknife
+
+
+Publish Journal,ann statist
+Publish Year,2004
+Cited Num,3256
+Title,Least angle regression
+
+
+Publish Journal,stat sci
+Publish Year,1986
+Cited Num,2497
+Title,Bootstrap Methods for Standard Errors, Confidence Intervals, and Other Measures of Statistical Accuracy
+
+
+Publish Journal,amer statist
+Publish Year,2012
+Cited Num,1517
+Title,A Leisurely Look at the Bootstrap, the Jackknife, and Cross-Validation
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,1171
+Title,Better Bootstrap Confidence Intervals
+
+
+Publish Journal,j amer statist assn
+Publish Year,2001
+Cited Num,994
+Title,Empirical Bayes Analysis of a Microarray Experiment
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,982
+Title,Estimating the Error Rate of a Prediction Rule: Improvement on Cross-Validation
+
+
+Publish Journal,science
+Publish Year,1991
+Cited Num,688
+Title,Statistical Data Analysis in the Computer Age
+
+
+Publish Journal,biometrika
+Publish Year,1981
+Cited Num,614
+Title,Nonparametric estimates of standard error: The jackknife, the bootstrap and other methods
+
+
+Publish Journal,ann statist
+Publish Year,2004
+Cited Num,613
+Title,Least angle regression. Discussions. Authors reply
+
+
+Publish Journal,j amer statist assn
+Publish Year,1997
+Cited Num,545
+Title,Improvements on Cross-Validation: The 632+ Bootstrap Method
+
+
+Publish Journal,j amer statist assn
+Publish Year,1973
+Cited Num,446
+Title,Stein's Estimation Rule and its Competitors—An Empirical Bayes Approach
+
+
+Publish Journal,j amer statist assn
+Publish Year,2004
+Cited Num,445
+Title,Large-Scale Simultaneous Hypothesis Testing: The Choice of a Null Hypothesis
+
+
+Publish Journal,ann statist
+Publish Year,1981
+Cited Num,429
+Title,The Jackknife Estimate of Variance
+
+
+Publish Year,1993
+Cited Num,428
+Title,An Introduction to the Bootstrap CHAPMAN & HALL/CRC
+
+
+Publish Journal,pnas
+Publish Year,1996
+Cited Num,414
+Title,Bootstrap confidence levels for phylogenetic trees
+
+
+Publish Journal,biometrika
+Publish Year,1971
+Cited Num,413
+Title,Forcing a sequential experiment to be balanced
+
+
+Publish Journal,j amer statist assn
+Publish Year,1975
+Cited Num,410
+Title,Data analysis using Stein's estimator and its generalizations
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,399
+Title,The Efficiency of Cox's Likelihood Function for Censored Data
+
+
+Publish Journal,ann appl stat
+Publish Year,2007
+Cited Num,395
+Title,On testing the significance of sets of genes
+
+
+Publish Journal,genet epidemiol
+Publish Year,2002
+Cited Num,373
+Title,Empirical bayes methods and false discovery rates for microarrays
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,373
+Title,Logistic Regression, Survival Analysis, and the Kaplan-Meier Curve
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,351
+Title,Censored Data and the Bootstrap
+
+
+Publish Journal,biometrika
+Publish Year,1978
+Cited Num,329
+Title,Assessing the accuracy of the maximum likelihood estimator: Observed versus expected Fisher information
+
+
+Publish Year,1994
+Cited Num,313
+Title,The Bootstrap and Other Resampling Plans
+
+
+Publish Journal,siam rev
+Publish Year,2006
+Cited Num,297
+Title,Computers and the Theory of Statistics: Thinking the Unthinkable
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,293
+Title,The Efficiency of Logistic Regression Compared to Normal Discriminant Analysis
+
+
+Publish Journal,can j stat
+Publish Year,1981
+Cited Num,282
+Title,Nonparametric standard errors and confidence intervals
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,274
+Title,How Biased is the Apparent Error Rate of a Prediction Rule
+
+
+Publish Journal,sci amer
+Publish Year,1977
+Cited Num,271
+Title,Stein's Paradox in Statistics
+
+
+Publish Journal,biometrika
+Publish Year,1976
+Cited Num,204
+Title,Estimating the number of unseen species: How many words did Shakespeare know?
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,189
+Title,Double Exponential Families and Their Use in Generalized Linear Regression
+
+
+Publish Year,1997
+Cited Num,182
+Title,Improvements on cross-validation: The
+
+
+Publish Journal,j amer statist assn
+Publish Year,2007
+Cited Num,178
+Title,Correlation and Large-Scale Simultaneous Significance Testing
+
+
+Publish Journal,biometrika
+Publish Year,1985
+Cited Num,169
+Title,Bootstrap confidence intervals for a class of parametric problems
+
+
+Publish Journal,ann statist
+Publish Year,1975
+Cited Num,168
+Title,Defining the Curvature of a Statistical Problem (with Applications to Second Order Efficiency)
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,165
+Title,Compliance as an Explanatory Variable in Clinical Trials
+
+
+Publish Journal,j amer statist assn
+Publish Year,1994
+Cited Num,164
+Title,Missing Data, Imputation, and the Bootstrap
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,161
+Title,Regression and ANOVA with Zero-One Data: Measures of Residual Variation
+
+
+Publish Journal,amer statist
+Publish Year,2012
+Cited Num,152
+Title,Why Isn't Everyone a Bayesian?
+
+
+Publish Journal,j amer statist assn
+Publish Year,2004
+Cited Num,151
+Title,The Estimation of Prediction Error: Covariance Penalties and Cross-Validation
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,136
+Title,Limiting the Risk of Bayes and Empirical Bayes Estimators—Part II: The Empirical Bayes Case
+
+
+Publish Journal,ann statist
+Publish Year,2007
+Cited Num,130
+Title,Size, power and false discovery rates
+
+
+Publish Journal,stat sci
+Publish Year,2008
+Cited Num,129
+Title,Microarrays, Empirical Bayes and the Two-Groups Model
+
+
+Publish Year,2010
+Cited Num,113
+Title,Large-scale inference : empirical Bayes methods for estimation, testing, and prediction
+
+
+Publish Journal,biometrika
+Publish Year,1972
+Cited Num,111
+Title,Empirical Bayes on vector observations: An extension of Stein's method
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,108
+Title,Student's t-Test under Symmetry Conditions
+
+
+Publish Journal,ann statist
+Publish Year,1978
+Cited Num,106
+Title,The Geometry of Exponential Families
+
+
+Publish Journal,ann statist
+Publish Year,1976
+Cited Num,100
+Title,Families of Minimax Estimators of the Mean of a Multivariate Normal Distribution
+
+
+Publish Year,1993
+Cited Num,88
+Title,Tibshirani: An Introduction to the Bootstrap
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,87
+Title,Limiting the Risk of Bayes and Empirical Bayes Estimators—Part I: The Bayes Case
+
+
+Publish Journal,j amer statist assn
+Publish Year,2005
+Cited Num,85
+Title,Bayesians, Frequentists, and Scientists
+
+
+Publish Year,1991
+Cited Num,83
+Title,1993: An Introduction to the Bootstrap
+
+
+Publish Journal,ann statist
+Publish Year,1976
+Cited Num,77
+Title,Multivariate Empirical Bayes and Estimation of Covariance Matrices
+
+
+Publish Journal,psychol bull
+Publish Year,1988
+Cited Num,77
+Title,Bootstrap confidence intervals: Good or bad?
+
+
+Publish Journal,ann statist
+Publish Year,2003
+Cited Num,77
+Title,Robbins, empirical Bayes and microarrays
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,77
+Title,More Efficient Bootstrap Computations
+
+
+Publish Year,1991
+Cited Num,74
+Title,Regression percentiles using asymmetric squared error loss
+
+
+Publish Journal,ann statist
+Publish Year,1998
+Cited Num,70
+Title,The problem of regions
+
+
+Publish Journal,advan math
+Publish Year,1975
+Cited Num,65
+Title,Biased Versus Unbiased Estimation
+
+
+Publish Year,1995
+Cited Num,64
+Title,Cross-Validation and the Bootstrap: Estimating the Error Rate of a Prediction Rule
+
+
+Publish Journal,ann statist
+Publish Year,1996
+Cited Num,64
+Title,Using specially designed exponential families for density estimation
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,64
+Title,Large-Scale Simultaneous Hypothesis Testing
+
+
+Publish Journal,j amer statist assn
+Publish Year,1996
+Cited Num,59
+Title,Empirical Bayes Methods for Combining Likelihoods
+
+
+Publish Journal,ann statist
+Publish Year,1982
+Cited Num,58
+Title,Maximum Likelihood and Decision Theory
+
+
+Publish Journal,biometrika
+Publish Year,1993
+Cited Num,58
+Title,Bayes and likelihood calculations from confidence intervals
+
+
+Publish Journal,j amer statist assn
+Publish Year,2000
+Cited Num,58
+Title,The Bootstrap and Modern Statistics
+
+
+Publish Journal,j amer statist assn
+Publish Year,1998
+Cited Num,55
+Title,Nonparametric Methods for Doubly Truncated Data
+
+
+Publish Year,2005
+Cited Num,54
+Title,Local false discovery rates
+
+
+Publish Year,1992
+Cited Num,53
+Title,Jackknife-after-bootstrap standard errors and influence functions
+
+
+Publish Journal,stat sci
+Publish Year,2003
+Cited Num,52
+Title,Second Thoughts on the Bootstrap
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,51
+Title,Empirical Bayes Estimates for Large-Scale Prediction Problems
+
+
+Publish Journal,behaviormetrika
+Publish Year,1985
+Cited Num,48
+Title,THE BOOTSTRAP METHOD FOR ASSESSING STATISTICAL ACCURACY
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,47
+Title,The Estimation of Prediction Error
+
+
+Publish Journal,ann statist
+Publish Year,1990
+Cited Num,45
+Title,Fisher's Information in Terms of the Hazard Rate
+
+
+Publish Journal,j amer statist assn
+Publish Year,2010
+Cited Num,43
+Title,Correlated z-Values and the Accuracy of Large-Scale Statistical Estimates
+
+
+Publish Journal,science
+Publish Year,2013
+Cited Num,36
+Title,Bayes' Theorem in the 21st Century
+
+
+Publish Journal,ann appl stat
+Publish Year,2008
+Cited Num,35
+Title,Simultaneous inference: When should hypothesis testing problems be combined?
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,35
+Title,Comparing Non-Nested Linear Models
+
+
+Publish Journal,biometrika
+Publish Year,1997
+Cited Num,30
+Title,The length heuristic for simultaneous hypothesis tests
+
+
+Publish Journal,ann statist
+Publish Year,2008
+Cited Num,29
+Title,DISCUSSION: THE DANTZIG SELECTOR: STATISTICAL ESTIMATION WHEN p IS MUCH LARGER THAN n
+
+
+Publish Journal,amer math mon
+Publish Year,1978
+Cited Num,27
+Title,Controversies in the Foundations of Statistics
+
+
+Publish Journal,ann statist
+Publish Year,1982
+Cited Num,26
+Title,Transformation Theory: How Normal is a Family of Distributions?
+
+
+Publish Journal,science
+Publish Year,1991
+Cited Num,26
+Title,Statistical analysis in the computer age
+
+
+Publish Journal,siam rev
+Publish Year,2006
+Cited Num,26
+Title,Computer-Intensive Methods in Statistical Regression
+
+
+Publish Year,2001
+Cited Num,25
+Title,Microarrays, Empirical Bayes Methods, and False Discovery Rates
+
+
+Publish Year,1984
+Cited Num,24
+Title,Bootstrap methods for standard errors
+
+
+Publish Journal,ann statist
+Publish Year,2001
+Cited Num,23
+Title,Selection criteria for scatterplot smoothers
+
+
+Publish Journal,apj
+Publish Year,1992
+Cited Num,22
+Title,A simple test of independence for truncated data with applications to redshift surveys
+
+
+Publish Journal,stat sci
+Publish Year,1998
+Cited Num,22
+Title,R. A. Fisher in the 21st century (Invited paper presented at the 1996 R. A. Fisher Lecture)Comment by D. R. CoxComment by Rob KassComment by Ole E. Barndorff-NielsenComment by D. V. HinkleyComment by D. A. S. FraserComment by A. P. DempsterRejoinder by Bradley Efron
+
+
+Publish Journal,stat sci
+Publish Year,1998
+Cited Num,21
+Title,R. A. Fisher in the 21st century (Invited paper presented at the 1996 R. A. Fisher Lecture)
+
+
+Publish Journal,ann appl stat
+Publish Year,2009
+Cited Num,21
+Title,Are a set of microarrays independent of each other
+
+
+Publish Journal,stat sci
+Publish Year,2010
+Cited Num,21
+Title,The Future of Indirect Evidence
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,19
+Title,Poisson Overdispersion Estimates Based on the Method of Asymmetric Maximum Likelihood
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,18
+Title,Tweedie’s Formula and Selection Bias
+
+
+Publish Journal,ann statist
+Publish Year,1978
+Cited Num,17
+Title,How Broad is the Class of Normal Scale Mixtures
+
+
+Publish Year,1979
+Cited Num,17
+Title,Computers and the theory of statistics
+
+
+Publish Year,2001
+Cited Num,16
+Title,Scales of Evidence for Model Selection: Fisher versus Jeffreys
+
+
+Publish Journal,j amer statist assn
+Publish Year,2012
+Cited Num,16
+Title,Does an Observed Sequence of Numbers Follow a Simple Rule? (Another Look at Bode's Law)
+
+
+Publish Journal,j amer statist assn
+Publish Year,2002
+Cited Num,15
+Title,Smoothers and the C[subp], Generalized Maximum Likelihood, and Extended Exponential Criteria: A Geometric Approach
+
+
+Publish Journal,j biopharm stat
+Publish Year,2011
+Cited Num,15
+Title,The Bootstrap and Markov-Chain Monte Carlo
+
+
+Publish Journal,j amer statist assn
+Publish Year,2013
+Cited Num,15
+Title,Estimation and Accuracy After Model Selection
+
+
+Publish Journal,j amer statist assn
+Publish Year,1994
+Cited Num,13
+Title,Survival Analysis of the Gamma-Ray Burst Data
+
+
+Publish Year,2004
+Cited Num,12
+Title,The Annals of Statistics
+
+
+Publish Journal,bull amer math soc
+Publish Year,2013
+Cited Num,12
+Title,A 250-year argument: Belief, behavior, and the bootstrap
+
+
+Publish Journal,biometrika
+Publish Year,2011
+Cited Num,11
+Title,False discovery rates and copy number variation
+
+
+Publish Journal,annals of mathematical statistics
+Publish Year,1968
+Cited Num,9
+Title,Large Deviations Theory in Exponential Families
+
+
+Publish Year,1976
+Cited Num,9
+Title,Estimating the number of unseen species: How many words did Shakespeare know? Biometrika 63
+
+
+Publish Journal,j roy stat soc ser b stat met
+Publish Year,2002
+Cited Num,9
+Title,The two‐way proportional hazards model
+
+
+Publish Journal,j roy stat soc ser b stat met
+Publish Year,2006
+Cited Num,9
+Title,Minimum volume confidence regions for a multivariate normal mean vector
+
+
+Publish Journal,ann appl stat
+Publish Year,2012
+Cited Num,9
+Title,Bayesian inference and the parametric bootstrap
+
+
+Publish Journal,ann statist
+Publish Year,1988
+Cited Num,8
+Title,Discussion: Theoretical Comparison of Bootstrap Confidence Intervals
+
+
+Publish Year,2015
+Cited Num,7
+Title,Resampling Methods of Estimation
+
+
+Publish Year,2003
+Cited Num,6
+Title,Bayesians, Frequentists, and Physicists
+
+
+Publish Year,2005
+Cited Num,5
+Title,MODERN SCIENCE AND THE BAYESIAN-FREQUENTIST CONTROVERSY
+
+
+Publish Journal,stat sci
+Publish Year,2014
+Cited Num,4
+Title,Two Modeling Strategies for Empirical Bayes Estimation
+
+
+Publish Journal,j roy stat soc ser b stat met
+Publish Year,2015
+Cited Num,4
+Title,Frequentist accuracy of Bayesian estimates
+
+
+Publish Journal,journal of the society for industrial and applied mathematics
+Publish Year,1963
+Cited Num,3
+Title,OPTIMUM EVASION VERSUS SYSTEMATIC SEARCH
+
+
+Publish Year,1981
+Cited Num,3
+Title,Nonparametric Estimates of Standard Error: The Jackknife, the Bootstrap, and Other Resampling Plans
+
+
+Publish Year,1988
+Cited Num,3
+Title,Three Examples of Computer — Intensive Statistical Inference
+
+
+Publish Journal,j amer statist assn
+Publish Year,1991
+Cited Num,3
+Title,Compliance as an Explanatory Variable in Clinical Trials: Rejoinder
+
+
+Publish Year,2014
+Cited Num,3
+Title,Computer‐Intensive Statistical Methods
+
+
+Publish Year,1981
+Cited Num,2
+Title,Statistical Theory and the Computer
+
+
+Publish Journal,ann statist
+Publish Year,1986
+Cited Num,2
+Title,Discussion: Jackknife, Bootstrap and Other Resampling Methods in Regression Analysis
+
+
+Publish Journal,j amer statist assn
+Publish Year,1994
+Cited Num,2
+Title,Missing Data, Imputation, and the Bootstrap: Rejoinder
+
+
+Publish Year,2007
+Cited Num,2
+Title,Doing thousands of hypothesis tests at the same time
+
+
+Publish Year,1968
+Cited Num,1
+Title,STUDENT'S T-TEST UNDER NON-NORMAL CONDITIONS
+
+
+Publish Year,1971
+Cited Num,1
+Title,Limiting the risk of Bayes and empirical Bayes estimates: Part I
+
+
+Publish Year,1975
+Cited Num,1
+Title,Defining curvature on statistical model
+
+
+Publish Journal,j amer statist assn
+Publish Year,1977
+Cited Num,1
+Title,A Simulation Study of Alternatives to Ordinary Least Squares: Comment
+
+
+Publish Journal,apj
+Publish Year,1995
+Cited Num,1
+Title,Testing Isotropy versus Clustering of Gamma-Ray Bursts
+
+
+Publish Year,2008
+Cited Num,1
+Title,Row and Column Correlations (Are a set of microarrays independent of each other
+
+
+Publish Year,2015
+Cited Num,1
+Title,Computes Local False Discovery Rates
+
+
+Publish Year,1972
+Cited Num,0
+Title,Simultaneous Estimation of Parameters.
+
+
+Publish Journal,j amer statist assn
+Publish Year,1976
+Cited Num,0
+Title,Necessary Analysis and Adaptive Inference: Comment
+
+
+Publish Journal,biometrika
+Publish Year,1978
+Cited Num,0
+Title,Reply to comments
+
+
+Publish Year,1983
+Cited Num,0
+Title,A Leisurely Look at the Bootstrap, the Jackknife, and
+
+
+Publish Journal,j amer statist assn
+Publish Year,1987
+Cited Num,0
+Title,Empirical Bayes Confidence Intervals Based on Bootstrap Samples: Comment
+
+
+Publish Journal,ann statist
+Publish Year,1990
+Cited Num,0
+Title,Discussion: An Ancillarity Paradox which Appears in Multiple Linear Regression
+
+
+Publish Year,1992
+Cited Num,0
+Title,Introduction to James and Stein (1961) Estimation with Quadratic Loss
+
+
+Publish Year,1993
+Cited Num,0
+Title,An Introduction to the Bootstrap: 45-82
+
+
+Publish Journal,statistics and computing
+Publish Year,1993
+Cited Num,0
+Title,Statistics in the 21st century
+
+
+Publish Year,1996
+Cited Num,0
+Title,Assessing the accuracy of maximum likeli - hood estimator: Observed versus expected information
+
+
+Publish Journal,pnas
+Publish Year,1996
+Cited Num,0
+Title,Correction: Bootstrap Confidence Levels for Phylogenetic Trees
+
+
+Publish Journal,econom rev
+Publish Year,1996
+Cited Num,0
+Title,Comments on “bootstrapping time series models”
+
+
+Publish Year,2001
+Cited Num,0
+Title,Rejoinder to Discussions by R. E. Kass, G. S. Datta and P. Lahiri
+
+
+Publish Year,2003
+Cited Num,0
+Title,Bayesians, Frequentists, and Physicists
+
+
+Publish Year,2004
+Cited Num,0
+Title,Rejoinder to 'Least angle regression' by Efron et al
+
+
+Publish Year,2004
+Cited Num,0
+Title,Bottom-Reflection Phase-Shift Estimation From ASIAEX Data
+
+
+Publish Year,2008
+Cited Num,0
+Title,The science of Bradley Efron : selected papers
+
+
+Publish Year,2010
+Cited Num,0
+Title,Large-Scale Inference: Large-Scale Hypothesis Testing
+
+
+Publish Year,2010
+Cited Num,0
+Title,Large-Scale Inference: Correlation Questions
+
+
+Publish Year,2010
+Cited Num,0
+Title,Large-Scale Inference: Empirical Bayes and the James—Stein Estimator
+
+
+Publish Journal,biometrika
+Publish Year,2016
+Cited Num,0
+Title,Empirical Bayes deconvolution estimates
+
+academic_age,53
