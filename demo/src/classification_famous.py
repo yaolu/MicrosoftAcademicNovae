@@ -12,7 +12,7 @@ with open('../result/feature.txt') as fs:
          a.append(line.split())
 
 famous=[]
-with open('../data/5000_cc_1995_2000.txt') as fs:
+with open('../data/1w_cc_1995_2000') as fs:
     for line in fs:
          famous.append(line.split()[0])
 
@@ -21,13 +21,16 @@ dataset=[]
 for elem in a:
     if int(elem[2])<2001 and int(elem[2])>=1995:
         tmp=[]
+        print elem
         if elem[0] in famous:
-            #tmp.append(map(float,[elem[1],elem[3],elem[4]]))
-            tmp.append(map(float,[elem[1],elem[4]]))
+            tmp.append(map(float,[elem[1],elem[3],elem[4]]))
+            #tmp.append(map(float,[elem[1],elem[4]]))
+            #tmp.append(map(float,[elem[4]]))
             tmp.append('famous')
         else:
-            #tmp.append(map(float,[elem[1],elem[3],elem[4]]))
-            tmp.append(map(float,[elem[1],elem[4]]))
+            #tmp.append(map(float,[elem[4]]))
+            tmp.append(map(float,[elem[1],elem[3],elem[4]]))
+            #tmp.append(map(float,[elem[1],elem[4]]))
             tmp.append('normal')
         dataset.append(tmp)
 #print dataset
@@ -49,4 +52,7 @@ sv = SVC()
 clf.fit(value_train,label_train)
 print classification_report(label_test,clf.predict(value_test))
 print confusion_matrix(label_test,clf.predict(value_test))
+for aa,bb in zip(value,label):
+	if bb =='famous':
+		print aa,bb
 #print cross_validation.cross_val_score(sv,value,label,cv=5)
