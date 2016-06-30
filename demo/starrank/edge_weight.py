@@ -21,28 +21,28 @@ class count_user_info:
 		return Counter(self._all_coauthors)
 
 
-
-
 def bibliography_generate(infile,outfile):
 
 #infile should like data/AuId_AuId.txt
 	bibliography_network = count_user_info(infile)
-#a.read_datafile()
 	pub_count = bibliography_network.user_publication_count()
 	coauthor_count = bibliography_network.user_co_author_count()
-#print list(coauthor)[0:3]
-#print pub_count['1553700638']
-	stat = []
 	with open(outfile,'a+') as fs:
-		for i in coauthor_count:
-			nn = coauthor_count[i]
+		for author_pair in coauthor_count:
+			a_to_b = coauthor_count[author_pair]
 			try:
-				zz = coauthor_count[(i[1],i[0])]
+				b_to_a = coauthor_count[(author_pair[1],author_pair[0])]
 			except KeyError, e:
-				zz = 0
+				b_to_a = 0
 			#fs.write(i[0]+'\t'+i[1]+'\t'+str(nn)+'\t'+str(zz)+'\t'+str(nn+zz)+'\t'+str(pub_count[i[1]])+'\n')
-			fs.write(i[0]+'\t'+i[1]+'\t'+str(nn+zz)+'\t'+str(pub_count[i[1]])+'\n')
-	
+			#fs.write(author_pair[0] + '\t' + author_pair[1] + '\t'+ str(a_to_b + b_to_a)+ '\t' + str(pub_count[author_pair[1]]) + '\n')
+			fs.write(author_pair[0] + '\t' + author_pair[1] + '\t'+ str(float(a_to_b + b_to_a)/pub_count[author_pair[1]]) + '\n')
 
-bibliography_generate('data/AuId_AuId.txt', '/tmp/test.txt')
+
+
+
+if __name__ == '__main__':
+	bibliography_generate('data/AuId_AuId.txt', 'result/bib.txt')
+
+
 
