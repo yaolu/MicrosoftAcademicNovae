@@ -25,13 +25,18 @@ def bibliography_generate(infile,outfile):
 
 #infile should like data/AuId_AuId.txt
 	bibliography_network = count_user_info(infile)
+
 	pub_count = bibliography_network.user_publication_count()
+
 	coauthor_count = bibliography_network.user_co_author_count()
+
 	with open(outfile,'a+') as fs:
 		for author_pair in coauthor_count:
 			a_to_b = coauthor_count[author_pair]
+
 			try:
 				b_to_a = coauthor_count[(author_pair[1],author_pair[0])]
+
 			except KeyError, e:
 				b_to_a = 0
 			#fs.write(i[0]+'\t'+i[1]+'\t'+str(nn)+'\t'+str(zz)+'\t'+str(nn+zz)+'\t'+str(pub_count[i[1]])+'\n')
@@ -39,10 +44,6 @@ def bibliography_generate(infile,outfile):
 			fs.write(author_pair[0] + '\t' + author_pair[1] + '\t'+ str(float(a_to_b + b_to_a)/pub_count[author_pair[1]]) + '\n')
 
 
-
-
 if __name__ == '__main__':
 	bibliography_generate('data/AuId_AuId.txt', 'result/bib.txt')
-
-
 
