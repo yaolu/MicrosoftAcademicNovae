@@ -28,12 +28,17 @@ class pagerank:
 						for nn_neigh_item in nn_neigh:
 							#print nn, nn_neigh_item, self.valuerank[nn_neigh_item],self.graph.get_edge_data(nn,nn_neigh_item)['weight']
 							all_influence += self.valuerank[nn_neigh_item]*self.graph.get_edge_data(nn,nn_neigh_item)['weight']
-						all_influence += 0.0000001
-						rank_sum += (self.graph.get_edge_data(key,nn)['weight']*self.valuerank[nn]*self.valuerank[key])/all_influence
+						if all_influence !=0: 
+							rank_sum += (self.graph.get_edge_data(key,nn)['weight']*self.valuerank[nn]*self.valuerank[key])/all_influence
+						else:
+							rank_sum = 1
 					self.valuerank[key] = ((1 - float(self.d)) * (1/float(self.V))) + self.d*rank_sum
 
 
-G = network_init(isdirected=True)
-p = pagerank(G)
-p.rank(isdirected=True)
-print p.valuerank
+if __name__ == "__main__":
+	G = network_init(isdirected=True)
+	p = pagerank(G)
+	p.rank(isdirected=True)
+	sorted_r = sorted(p.valuerank.iteritems(), key=operator.itemgetter(1), reverse=True)
+	for tup in sorted_r:
+		print '{0:30} :{1:10}'.format(str(tup[0]), tup[1])
