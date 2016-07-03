@@ -21,7 +21,7 @@ class pagerank:
 				print _
 				for key in self.graph.nodes():
 					rank_sum = 0
-					neighbors = self.graph.out_edges(key)
+					neighbors = self.graph.neighbors(key)
 					for nn in neighbors:
 						nn_neigh = self.graph.neighbors(nn)
 						all_influence = 0
