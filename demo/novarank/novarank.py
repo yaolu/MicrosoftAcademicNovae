@@ -26,8 +26,8 @@ class pagerank:
 						nn_neigh = self.graph.neighbors(nn)
 						all_influence = 0
 						for nn_neigh_item in nn_neigh:
-							all_influence+=self.valuerank[nn_neigh_item]*self.G.get_edge_data(nn,nn_neigh_item)['weight']
-						rank_sum += (self.G.get_edge_data(key,nn)['weight']*self.valuerank[nn]*self.valuerank[key])/all_influence
+							all_influence+=self.valuerank[nn_neigh_item]*self.graph.get_edge_data(nn,nn_neigh_item)['weight']
+						rank_sum += (self.graph.get_edge_data(key,nn)['weight']*self.valuerank[nn]*self.valuerank[key])/all_influence
 					self.valuerank[key] = ((1 - float(self.d)) * (1/float(self.V))) + self.d*rank_sum
 
 
