@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from utils import network_init
+import operator
 
 class pagerank:
 	def __init__(self,graph):
