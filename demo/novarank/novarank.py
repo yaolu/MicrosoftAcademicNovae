@@ -18,7 +18,7 @@ class pagerank:
 			print "directed version"
 			
 			
-			for _ in range(10):
+			for _ in range(100):
 				print _
 				for key in self.graph.nodes():
 					rank_sum = 0
