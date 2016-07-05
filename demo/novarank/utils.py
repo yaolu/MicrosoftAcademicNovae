@@ -3,13 +3,13 @@ import networkx as nx
 
 def network_init(isdirected):
 	if isdirected:
-		G = nx.read_edgelist('result/bib.txt', nodetype=str, data=(('weight',float),),create_using=nx.DiGraph())
+		G = nx.read_edgelist('result/bib_2000.txt', nodetype=str, data=(('weight',float),),create_using=nx.DiGraph())
 	else:
-		G = nx.read_edgelist('result/bib.txt', nodetype=str, data=(('weight',float),))
+		G = nx.read_edgelist('result/bib_2000.txt', nodetype=str, data=(('weight',float),))
 
 	node_val = {}
 
-	with open('result/qua.txt') as fs:
+	with open('result/qua_2000.txt') as fs:
 		for line in fs:
 			tmp = line.split()
 			node_val.update({tmp[0]:float(tmp[1])})
