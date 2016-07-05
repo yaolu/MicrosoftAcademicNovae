@@ -31,8 +31,8 @@ class pagerank:
 							all_influence += self.valuerank[nn_neigh_item]*self.graph.get_edge_data(nn,nn_neigh_item)['weight']
 						if all_influence !=0: 
 							rank_sum += (self.graph.get_edge_data(key,nn)['weight']*self.valuerank[nn]*self.valuerank[key])/all_influence
-						else:
-							rank_sum = 1
+#						else:
+#							rank_sum = 1
 					self.valuerank[key] = ((1 - float(self.d)) * (1/float(self.V))) + self.d*rank_sum
 
 
