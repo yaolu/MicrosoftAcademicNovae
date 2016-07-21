@@ -2,6 +2,7 @@
 
 from utils import network_init
 import operator
+import time
 
 class pagerank:
 	def __init__(self,graph):
@@ -17,7 +18,6 @@ class pagerank:
 		if isdirected:
 			print "directed version"
 			
-			
 			for _ in range(100):
 				print _
 				for key in self.graph.nodes():
@@ -29,10 +29,11 @@ class pagerank:
 						for nn_neigh_item in nn_neigh:
 							#print nn, nn_neigh_item, self.valuerank[nn_neigh_item],self.graph.get_edge_data(nn,nn_neigh_item)['weight']
 							all_influence += self.valuerank[nn_neigh_item]*self.graph.get_edge_data(nn,nn_neigh_item)['weight']
-						if all_influence !=0: 
+						if all_influence != 0: 
+							time.sleep(0.5)
 							rank_sum += (self.graph.get_edge_data(key,nn)['weight']*self.valuerank[nn]*self.valuerank[key])/all_influence
-#						else:
-#							rank_sum = 1
+						else:
+							rank_sum = 1
 					self.valuerank[key] = ((1 - float(self.d)) * (1/float(self.V))) + self.d*rank_sum
 
 

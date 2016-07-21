@@ -45,5 +45,5 @@ def bibliography_generate(infile,outfile):
 
 
 if __name__ == '__main__':
-	bibliography_generate('data/2000/AuId_work_togethor_2000', 'result/bib_2000.txt')
+	bibliography_generate('data/nlp/coo.txt', 'result/bib_nlp.txt')
 
