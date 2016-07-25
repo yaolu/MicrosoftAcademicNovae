@@ -7,7 +7,7 @@ def softmax(x):
 def modified_logistic(x):
 	return logistic.cdf(x,scale=5,loc=15)
 
-f=open('pub_number.csv').readlines()
+f=open('pub_number_first_author.csv').readlines()
 data=[elem.strip('\n').split('\t') for elem in f]
 
 output = []

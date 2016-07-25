@@ -1,4 +1,4 @@
-f=open('pub_number.csv').readlines()
+f=open('pub_number_first_author.csv').readlines()
 f = [int(elem.strip('\n').split('\t')[1]) for elem in f]
 pub_num = f
 from scipy.stats.kde import gaussian_kde
