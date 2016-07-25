@@ -9,12 +9,12 @@ def readDict(filename, sep):
                     dict.update({values[0]:float(values[2])})
         return(dict)
 
-def build_network(first_author):
-	G = nx.read_edgelist('../cooperation.csv')
+def build_network(first_author,coo_filepath,quality_filepath):
+	G = nx.read_edgelist(coo_filepath)
 	if first_author:
-		node = readDict('quality_first_author.csv','\t')
+		node = readDict(quality_filepath,'\t')
 	else:
-		node = readDict('quality.csv','\t')
+		node = readDict(quality_filepath,'\t')
 	with open('../authorlist.csv') as fs:
 		for line in fs:
 			try:
@@ -42,7 +42,7 @@ def build_namedict():
 
 
 if __name__ == "__main__":
-	A = build_network(first_author=True)
+	A = build_network(first_author=True,coo_filepath = '/tmp/cooperation.csv',quality_filepath='/tmp/quality.csv')
 	name = build_namedict()
 	count = 1
 	for elem in dict_nlargest(A,500):
