@@ -1,0 +1,14 @@
+05DDD29F	Automatic domain adaptation for parsing	automatic domain adaptation for parsing	2010	2010/06/02		north american chapter of the association for computational linguistics	naacl		45F914AD	19316
+0AEEC003	Customizing an information extraction system to a new domain	customizing an information extraction system to a new domain	2011	2011/06/23		meeting of the association for computational linguistics	acl		46DAB993	19151
+7D5292E9	Event extraction as dependency parsing	event extraction as dependency parsing	2011	2011/06/19		meeting of the association for computational linguistics	acl		46DAB993	18471
+8092D5C0	Learning constraints for consistent timeline extraction	learning constraints for consistent timeline extraction	2012	2012/07/12		empirical methods in natural language processing	emnlp		47167ADC	19360
+7FDC8BB8	Parsing Paraphrases with Joint Inference	parsing paraphrases with joint inference	2015	2015/07/27		meeting of the association for computational linguistics	acl		46DAB993	19555
+7E912939	The Stanford CoreNLP Natural Language Processing Toolkit	the stanford corenlp natural language processing toolkit	2014	2014/06		meeting of the association for computational linguistics	acl		46DAB993	17483
+86254518	Syntactic Parse Fusion	syntactic parse fusion	2015	2015/09		empirical methods in natural language processing	emnlp		47167ADC	19555
+7B38D97C	When is self-training effective for parsing?	when is self training effective for parsing	2008	2008/08/18		international conference on computational linguistics	coling		45B7D2EB	19045
+815EAA83	Improving statistical MT through morphological analysis	improving statistical mt through morphological analysis	2005	2005/10/06	10.3115/1220575.1220660	empirical methods in natural language processing	emnlp		47167ADC	17666
+7F75221B	Reranking and self-training for parser adaptation	reranking and self training for parser adaptation	2006	2006/07/17	10.3115/1220175.1220218	international conference on computational linguistics	coling		45B7D2EB	16986
+7C7E9B38	Improving unsupervised dependency parsing with richer contexts and smoothing	improving unsupervised dependency parsing with richer contexts and smoothing	2009	2009/05/31		north american chapter of the association for computational linguistics	naacl		45F914AD	18106
+7EC9B134	Self-training for biomedical parsing	self training for biomedical parsing	2008	2008/06/16		meeting of the association for computational linguistics	acl		46DAB993	17760
+7AD3F80B	Evaluating unsupervised part-of-speech tagging for grammar induction	evaluating unsupervised part of speech tagging for grammar induction	2008	2008/08/18		international conference on computational linguistics	coling		45B7D2EB	19020
+80F56EAB	Effective self-training for parsing	effective self training for parsing	2006	2006/06/04	10.3115/1220835.1220855	north american chapter of the association for computational linguistics	naacl		45F914AD	16691
