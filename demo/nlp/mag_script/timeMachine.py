@@ -3,6 +3,16 @@ import os
 import numpy as np
 from collections import Counter
 from scipy.stats import logistic
+import coo_weight
+
+
+################
+# init all datafiles
+#############
+if os.path.isfile('/tmp/quality.csv'):
+	os.remove('/tmp/quality.csv')
+if os.path.isfile('/tmp/cooperation.csv'):
+	os.remove('/tmp/cooperation.csv')
 
 def get_worldwide_data():
 	data=[]
@@ -23,27 +33,13 @@ def get_timemachine_author(paper_info,write_to_file):
 			a = line.strip('\r\n').split('\t')
 			if a[0] in all_paper:
 				if write_to_file:
-					with open('paper_author','a+') as output:
+					with open('/tmp/paper_author','a+') as output:
 						output.write(line)
 				else:
 					author_info.append(line.strip('\r\n').split('\t'))
 	return author_info
 
-#######################
-# Get the paper before a specific year 
-##########
-data = get_worldwide_data()
-data_2010 = get_timemachine_paper(data,2010)
 
-############################
-# Get Author information of papers before a specific year 
-###########################
-author_info_2010 = get_timemachine_author(paper_info = data_2010, write_to_file = False)
-
-
-##############################
-# From author info generate cooperation
-#######################
 
 def generate_cooperation_info(author_info,write_to_file):
 
@@ -81,15 +77,15 @@ def generate_cooperation_info(author_info,write_to_file):
 				try:
 					coo_data.append([a['1'],a[key]])
 				except KeyError as e:
-					print 'keyerror,ignore'
+					pass
+					#print 'keyerror,ignore'
 	if write_to_file:
 		with open('/tmp/cooperation.csv','a+') as output:
 			for elem in coo_data:
 				output.write('\t'.join(elem)+'\n')
 	return(coo_data)
 
-coo_data =  generate_cooperation_info(author_info_2010,write_to_file=True)
-#print author_info_2010
+
 
 def pub_num_author(author_info, isfirst):
 	if isfirst:
@@ -102,7 +98,38 @@ def pub_num_author(author_info, isfirst):
 def modified_logistic(x):
 	return logistic.cdf(x,scale=5,loc=15)
 
-author_num_dict = pub_num_author(author_info_2010, isfirst = True)
-with open('/tmp/quality.csv','a+') as fs:
-        for key in author_num_dict:
-                fs.write(key+'\t'+str(author_num_dict[key])+'\t'+str(modified_logistic(author_num_dict[key]))+'\n')
+
+
+
+def main(timemachine_year):
+	
+	#######################
+	# Get the paper before a specific year 
+	##########
+	data = get_worldwide_data()
+	data_2010 = get_timemachine_paper(data,timemachine_year)
+
+	############################
+	# Get Author information of papers before a specific year 
+	###########################
+	author_info_2010 = get_timemachine_author(paper_info = data_2010, write_to_file = False)
+	coo_data =  generate_cooperation_info(author_info_2010,write_to_file=True)
+	#print author_info_2010
+
+	##############################
+	# From author info generate cooperation
+	#######################
+
+
+	author_num_dict = pub_num_author(author_info_2010, isfirst = True)
+	with open('/tmp/quality.csv','a+') as fs:
+	        for key in author_num_dict:
+	                fs.write(key+'\t'+str(author_num_dict[key])+'\t'+str(modified_logistic(author_num_dict[key]))+'\n')
+
+if __name__ == '__main__':
+	main(2005)
+	coo_weight.run()
+	#for y in range(1980,2017):
+	#	main(y)
+	#	print y,'\t',os.system('python /Users/alex/Documents/MicrosoftAcademicNovae/demo/nlp/process_data/algo_data/rank.py')
+	#	print '=============='
