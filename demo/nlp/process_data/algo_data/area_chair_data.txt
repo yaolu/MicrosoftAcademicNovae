@@ -1,0 +1,1022 @@
+#ACL2014
+Daniel Marcu
+Kristina Toutanova
+Hua Wu
+Klinton Bicknell
+Asli Celikyilmaz
+Micha Elsner
+Michael Strube
+Jacob Eisenstein
+Jun Zhao
+Barbara Di Eugenio
+Marius Pasca (Google Research)
+Mihai Surdeanu (University of Arizona)
+Ting Liu (Harbin Institute of Technology)
+Nicoletta Calzolari (Institute of Computational Linguistics of the National Research Council)
+Nianwen Xue (Brandeis University)
+Eneko Agirre (University of the Basque Country)
+Kevin Duh (Nara Institute of Science and Technology)
+Jason Eisner (Johns Hopkins University)
+Colin Cherry
+Niyu Ge (IBM Research)
+Liang Huang (City University of New York)
+Yanjun Ma (Baidu)
+Michel Galley (Microsoft Research)
+Mamoru Komachi (Tokyo Metropolitan University)
+Miles Osborne (Johns Hopkins University)
+Alan Ritter (Carnegie Mellon University)
+Iryna Gurevych (Technische Universität Darmstadt)
+Percy Liang (Stanford University)
+Shiqi Zhao (Baidu)
+Yang Liu (University of Texas at Dallas)
+Scott Wen-tau Yih (Microsoft Research)
+Ciprian Chelba (Google Research)
+Xavier Carreras (Universitat Politecnica de Catalunya)
+Slav Petrov (Google Research)
+Grzegorz Kondrak (University of Alberta)
+
+#EACL2014
+Shuly Wintner
+Sharon Goldwater
+Stefan Riezler
+Enrique Alfonseca
+John Blitzer
+Aoife Cahill
+Vera Demberg
+Chris Dyer
+Jacob Eisenstein
+Micha Elsner
+Katrin Erk
+Afsaneh Fazly
+Katja Filippova
+Alexander Fraser
+Iryna Gurevych
+Chin-Yew Lin
+David McClosky
+Yusuke Miyao
+Hwee Tou Ng
+Slav Petrov
+Simone Paolo Ponzetto
+Sebastian Riedel
+Verena Rieser
+Helmut Schmid
+Izhak Shafran
+Hiroya Takamura
+Lucy Vanderwende
+
+#EMNLP2014
+Alessandro Moschitti (Qatar Computing Research Institute)	
+Walter Daelemans (University of Antwerp)
+Bo Pang (Google)	
+Tomaž Erjavec (Jožef Stefan Institute)	
+Gosse Bouma (University of Groningen)
+Yuji Matsumoto (Nara Institute of Science and Technology)	
+Jennifer Chu-Carroll (IBM Watson Research Center)
+Olga Uryupina (University of Trento)	
+Rada Mihalcea (University of Michigan)
+Sameer Pradhan (Harvard Medical School)	
+Anja Belz (University of Brighton)
+Dilek Hakkani-Tür (Microsoft Research)	
+Ivan Titov (University of Amsterdam)
+Jerry Zhu (University of Wisconsin-Madison)	
+Chris Callison-Burch (University of Pennsylvania)
+Dan Gildea (University of Rochester)	
+Sien Moens (Katholieke Universiteit Leuven)
+Hinrich Schütze (Ludwig Maximilian University of Munich)
+Doug Downey (Northwestern University)
+Marius Pasca (Google)	
+Massimiliano Ciaramita (Google)
+Hwee Tou Ng (National University of Singapore)	
+Yejin Choi (Stony Brook University)
+Minlie Huang (Tsinghua University)	
+Irwin King (The Chinese University of Hong Kong)
+Qiaozhu Mei (University of Michigan)	
+Pascale Fung (Hong Kong University of Science and Technology)
+Hugo Van hamme (Katholieke Universiteit Leuven)	
+Sharon Goldwater (University of Edinburgh)
+
+#ACL2013
+Hinrich Schuetze (University of Munich)
+Pascale Fung (The Hong Kong University of Science and Technology)
+Massimo Poesio (University of Essex)
+Frank Keller
+Roger Levy
+Amanda Stent
+David Suendermann
+Andrew Kehler
+Becky Passonneau
+Hang Li
+Nancy Ide
+Piek Vossen
+Philipp Cimiano
+Sabine Schulte im Walde
+Dekang Lin
+Chiori Hori
+Keh-Yih Su
+Roland Kuhn
+Dekai Wu
+Benjamin Snyder
+Thamar Solorio
+Ehud Reiter
+Massimiliano Ciaramita
+Ken Church
+Carlo Strapparava
+Tomaz Erjavec
+Adam Prziepiorkowski
+Patrick Pantel
+Owen Rambow
+Chris Dyer
+Jason Eisner
+Jennifer Chu-Carroll
+Bernardo Magnini
+Lluis Marquez
+Alessandro Moschitti
+Claire Cardie
+Rada Mihalcea
+Dilek Hakkani-Tur
+Walter Daelemans
+Dan Roth
+Alex Koller
+Ani Nenkova
+Jamie Henderson
+Sadao Kurohashi
+Yuji Matsumoto
+Heng Ji
+Marie-Francine Moens
+Hwee Tou Ng
+
+#EMNLP2013
+David Yarowsky (John Hopkins University, USA)	
+Timothy Baldwin (University of Melbourne, Australia)
+Anna Korhonen (University of Cambridge, UK)	
+Kemal Oflazer (Carnegie Mellon University Qatar)
+Anna Feldman (Montclair State University, USA)	
+Jennifer Foster (Dublin City University, Ireland)
+Yoav Goldberg (Bar Ilan University, Israel)	
+Mark Stevenson (University of Sheffield, UK)
+Luke Zettlemoyer (University of Washington, USA)	
+Carolyn Rose (Carnegie Mellon University, USA)
+Matt Purver (Queen Mary, University of London, UK)	
+Emily M. Bender (University of Washington, USA)
+Aline Villavicencio (Federal University of Rio Grande do Sul, Brazil)	
+Dragomir Radev (University of Michigan, USA)
+Yang Liu (University of Texas at Dallas, USA)	
+Amir Globerson (The Hebrew University of Jerusalem, Israel)
+Antal van den Bosch (Radboud University Nijmegen, Netherlands)
+
+#NAACL2013
+Lucy Vanderwende (Microsoft Research)	
+Hal Daumé III (University of Maryland)
+Katrin Kirchhoff (University of Washington)	
+Markus Dreyer (SDL Language Weaver)	
+Joakim Nivre (Uppsala University)
+James Henderson (Université de Genève)	
+Percy Liang (Stanford University)
+Peter Turney (National Research Council of Canada)	
+Srinivas Bangalore (AT&T)	
+David Traum (Institute for Creative Technologies)
+Joyce Chai (Michigan State University)	
+Vera Demberg (Saarland University)	
+Guy Lapalme ((Université de Montréal)	
+Johanna Moore (University of Edinburgh)	
+Phil Blunsom (University of Oxford)
+Mark Dredze (Johns Hopkins University)	
+Alon Lavie (Carnegie Mellon University)
+Marine Carpuat (National Research Council of Canada)	
+Eugene Agichtein (Emory University)	
+Doug Downey (Northwestern University)
+Sanda Harabagiu (University of Texas at Dallas)	
+Zak Shafran (Oregon Health and Science University)	
+Bo Pang (Cornell University)
+Theresa Wilson (Johns Hopkins University)	
+David Bean (TDW)	
+Jordan Boyd-Graber (University of Maryland)	
+Bill Dolan (Microsoft Research)	
+Ani Nenkova (University of Pennsylvania)
+Taro Watanabe (NICT, Japan)
+Kevin Knight (Information Sciences Institute, USA)	
+Bernardo Magnini (Fondazione Bruno Kessler, Italy)
+Soumen Chakrabarti (Indian Institute of Technology, India)	
+Mausam (Indian Institute of Technology, India)
+Heng Ji (City University of New York, USA)	
+Haizhou Li (Institute for Infocomm Research, Singapore)
+Amanda Stent (AT&T Labs, USA)	
+Hang Li (Huawei Noah’s Ark Lab, Hong Kong)
+Kevin Cohen (University of Colorado School of Medicine, USA)	
+Janyce Weibe (University of Pittsburgh, USA)
+Bing Liu (University of Illinois at Chicago, USA)	
+Miles Osborne (University of Edinburgh, UK)
+Chin-Yew Lin (Microsoft Research Asia, China)	
+Alessandro Lenci (University of Pisa, Italy)
+Afra Alishahi (Tilburg University, Netherlands)
+
+#ACL2012
+Haizhou Li (Institute for Infocomm Research)	
+Chin-Yew Lin (Microsoft Research Asia)
+Miles Osborne (University of Edinburgh)	
+Mikio Nakano
+Andrei Popescu-Belis
+Jian Su
+Jianfeng Gao
+Vincent Ng
+Fei Xia
+Evgeniy Gabrilovich
+Naoaki Okazaki
+Eneko Agirre
+Trevor Cohn
+Mark Dredze
+Marcello Federico
+Adam Lopez
+David Talbot
+Hua Wu
+Daniel M. Bikel
+Mona Diab
+Jason Baldridge
+David Weir
+Stephen Clark
+Liang Huang
+Hongyuan Zha
+Hsin-Hsi Chen
+Noah Smith
+Jan Wiebe
+Chung-Hsien Wu
+Anja Belz
+Ani Nenkova
+Kemal Oflazer
+
+#EACL2012
+Walter Daelemans (University of Antwerp, Belgium)	
+Mirella Lapata (University of Edinburgh, UK)
+Lluis Marquez (Universitat Politecnica de Catalunya, Spain)	
+Katja Filippova (Google)
+Min-Yen Kan (National University of Singapore)
+Charles Sutton (University of Edinburgh)
+Ivan Titov (Saarland University)
+Xavier Carreras ( Universitat Politecnica de Catalunya(UPC))
+Kenji Sagae (University of Southern California)
+Kallirroi Georgila (Institute for Creative Technologies, University of Sou thern California)
+Michael Strube (HITS gGmbH)
+Pascale Fung (The Hong Kong University of Science and Tech)
+Bing Liu (University of Illinois at Chicago)
+Theresa Wilson (Johns Hopkins University)
+David McClosky (Stanford University)
+Sebastian Riedel (University of Massachusetts)
+Phil Blunsom (University of Oxford)
+Mikel L. Forc ada (Universitat d’Alacant)
+Christof Monz (University of Amsterdam)
+Sharon Goldwater (University of Edinburgh)
+Richard Wicentowski (Swarthmore College)
+Patrick Pan tel (Microsoft Research)
+Hiroya Takamura (Tokyo Institute of Technology)
+Alexander Koller (University of Potsdam)
+Sebastian Pado (Universitat Heidelberg)
+Maarten d e Rijke (University of Amsterdam)
+Julio Gonzalo (UNED)
+Lori Levin (Carnegie Mellon University)
+Piek Vossen (VU University Amsterdam)
+Afra Alishahi (Tilburg Univers ity, The Netherlands)
+John Hale (Cornell University)
+
+#EMNLP2012
+junichi tsujii
+James Henderson (Xerox Research Centre Europe)
+Marius Pasca (Google)
+Eugene Agichtein (Emory University)
+Yejin Choi (Stony Brook University)
+Hal Daume III (University of Maryland)
+Doug Downey (Northwestern University)
+Chris Dyer (Carnegie Mellon University)
+Adria de Gispert (University of Cambridge)
+Julia Hirschberg (Columbia University)
+Anna Korhonen (University of Cambridge)
+Bing Liu (University of Illinois at Chicago)
+Hwee Tou Ng (National University of Singapore)
+Patrick Pantel (Microsoft Research)
+Marco Pennacchiotti (Yahoo! Labs)
+Slav Petrov (Google)
+Simone Paolo Ponzetto (Sapienza University of Rome)
+John Prager (IBM Research)
+Chris Quirk (Microsoft Research)
+Sebastian Riedel (University of Massachusetts at Amherst)
+Hiroya Takamura (Tokyo Institute of Technology)
+Partha Talukdar (Carnegie Mellon University)
+Reut Tsarfaty (Uppsala University)
+Marilyn Walker (University of California at Santa Cruz)
+
+#NAACL2012
+Jennifer Chu-Carroll (IBM T.J. Watson Research Center)	
+Eric Fosler-Lussier (The Ohio State University)
+Ellen Riloff (University of Utah)	
+Roberto Basili (University of Rome)	
+Guiseppe Carenini (University of British Columbia)	
+Yejin Choi (Stony Brook University)	
+Christy Doran (MITRE)	
+Jason Eisner (Johns Hopkins University)	
+George Foster (National Research Council Canada)	
+Roxana Girju (University of Illinois Urbana-Champaign)	
+Heng Ji (City University of New York)	
+Sadao Kurohashi (Kyoto University)	
+Matt Lease (University of Texas Austin)	
+Diane Litman (University of Pittsburgh)	
+Deepak Ravichandran (Google)	
+Guiseppe Ricardi (University of Trento)
+Richard Rose (McGill University)	
+Giorgio Satta (University of Padova)	
+Fei Sha (University of Southern California)	
+Suzanne Stevenson (University of Toronto)	
+David Traum (University of Southern California)	
+Scott Yih (Microsoft)	
+Luke Zettlemoyer (University of Washington)	
+Bowen Zhou (IBM)	
+Jerry Zhu (University of Wisconsin)
+
+#ACL2011
+Dekang Lin (Google)	
+Yuji Matsumoto (Nara Institute of Science and Technology)
+Rada Mihalcea (University of North Texas)	
+Anna Feldman
+Greg Kondrak
+Xavier Carreras
+Ryan McDonald
+Diana McCarthy
+Deniz Yuret
+Kentaro Inui
+Svetlana Stoyanchev
+Yang Liu
+Manabu Okumura
+Lluis Marquez
+Alessandro Moschitti
+Shankar Kumar
+Taro Watanabe
+Elliott Macklovitch
+Michel Simard
+Fabrizio Sebastiani
+Bernardo Magnini
+Razvan Bunescu
+Alexander Yates
+Katja Markert
+Xiaojun Wan
+Pascale Fung
+Vasile Rus
+Chu-Ren Huang
+Dan Tufis
+Thamar Solorio
+Vivi Nastase
+Carlo Strapparava
+
+#EMNLP2011
+Paola Merlo (University of Geneva)	
+Regina Barzilay (Massachusetts Institute of Technology)
+Mark Johnson (Macquarie University)
+Emily M. Bender (University of Washington)
+Phil Blunsom (University of Oxford)
+Eugene Charniak (Brown University)
+Chris Dyer (Carnegie Mellon University)
+Jenny Finkel (Columbia University)
+Radu Florian (IBM Watson Research Center)
+Amir Globerson (The Hebrew University of Jerusalem)
+Keith Hall (Google Research)
+Minlie Huang (Tsinghua University)
+Katrin Kirchhoff (University of Washington)
+Mirella Lapata (University of Edinburgh)
+Chin-Yew Lin (Microsoft Research Asia)
+Bo Pang (Yahoo! Research)
+Stefan Riezler (University of Heidelberg)
+Ellen Riloff (University of Utah)
+Hinrich Schuetze (University of Stuttgart)
+Jian Su (Institute for Infocomm Research)
+Dekai Wu (Hong Kong University of Science and Technology)
+Luke Zettlemoyer (University of Washington)
+
+#ACL2010
+Jan Hajič (Charles University in Prague, Czech Republic)	
+Sandra Carberry (University of Delaware, USA)
+Stephen Clark (University of Cambridge, United Kingdom)	
+Tim Baldwin
+Roberto Navigli
+Phil Blunsom
+Walter Daelemans
+Kalina Bontcheva
+Hang Li
+Johan Bos
+Claire Cardie
+Theresa Wilson
+Rob Gaizauskas
+Keith Hall
+Chris Quirk
+Julia Hirschberg
+Nancy Ide
+Michael Johnston
+Roger Levy
+Chin-Yew Lin
+Yusuke Miyao
+Khalil Sima'an
+Ani Nenkova
+Bonnie Webber
+Jon Oberlander
+Matthew Stone
+Stuart Shieber
+Richard Sproat
+Junichi Tsujii
+ChengXiang Zhai
+
+#COLING2010
+Chris Callison-Burch
+Qun Liu
+Sebastian Pado
+Takenobu Tokunaga
+Bo Pang
+Gary Geunbae Lee
+Rosie Jones
+Donia Scott
+Ming Zhou
+Sadao Kurohashi
+david a smith
+Nicoletta Calzolari
+Caroline Sporleder
+Nianwen Xue
+Rajeev Sangal
+Emily Bender
+Pierre Isabelle
+Justine Cassell
+Haizhou Li
+Roger Levy
+
+#EMNLP2010
+Hang Li (Microsoft Research Asia)
+lluis marquez (Technical University of Catalonia)
+Eneko Agirre (University of the Basque Country)
+Kalina Bontcheva (University of Sheffield)
+Antal van den Bosch (Tilburg University)
+David Chiang (USC Information Sciences Institute)
+Jennifer Chu-Carroll (IBM Research)
+Evgeniy Gabrilovich (Yahoo! Research)
+Jianfeng Gao (Microsoft Research)
+Julio Gonzalo (UNED)
+Nancy Ide (Vassar College)
+Haizhou Li (Institute for Infocomm Research)
+Qun Liu (ICT, Chinese Academy of Sciences)
+Yusuke Miyao (National Institute of Informatics)
+Bo Pang (Yahoo! Research)
+Dragomir Radev (University of Michigan)
+Noah Smith (Carnegie Mellon University)
+Kristina Toutanova (Microsoft Research)
+Yoshimasa Tsuruoka (JAIST)
+Yi Zhang (University of California, Santa Cruz)
+
+#NAACL2010
+Ronald Kaplan (Microsoft Bing)
+Jill Burstein (Educational Testing Service),
+Mary Harper (University of Maryland and The Johns Hopkins University)
+Eugene Agichtein (Emory University)
+Yaser Al-Onaizan (IBM)
+Ciprian Chelba (Google)
+Mona Diab (Columbia University)
+Barbara Di Eugenio (University of Illinois at Chicago)
+Eric Fosler-Lussier (Ohio State University)
+Makoto Kanazawa (National Institute of Informatics, Tokyo)
+Damianos Karakos (Johns Hopkins University)
+Philip Koehn (University of Edinburgh)
+Mike Maxwell (University of Maryland)
+Diana McCarthy (Lexical Computing Ltd)
+Ani Nenkova (University of Pennsylvania)
+Stefan Oepen (University of Oslo)
+Dan Roth (University of Illinois at Urbana-Champaign)
+Noah Smith (Carnegie Mellon University)
+Amanda Stent (AT&T)
+Joel Tetreault (Educational Testing Service)
+Jan Wiebe (University of Pittsburgh)
+
+#ACL2009
+Greg Kondrak
+Noah Smith
+James Curran
+Eneko Agirre
+Rada Mihalcea
+Massimo Poesio
+Michael Strube
+Anja Belz
+Jianfeng Gao
+jun suzuki
+Hai Feng Wang
+Philipp Koehn
+Hsin-Hsi Chen
+Ellen Riloff
+Satoshi Sekine
+Giuseppe Carenini
+Helen Meng
+Sanda Harabagiu
+Sophi Ananiadou
+Keh-Jiann Chen
+
+#EACL2009
+Alex Lascarides (University of Edinburgh, UK)
+Claire Gardent (CNRS/LORIA Nancy, France)
+Joakim Nivre (Uppsala University and Vaxjö University, Sweden)
+Anja Belz (University of Brighton, UK)
+Sabine Buchholz (Toshiba Research Europe, UK)
+Chris Callison-Burch (Johns Hopkins University, USA)
+Philipp Cimiano (Delft University of Technology, The Netherlands)
+Maarten de Rijke (University of Amsterdam, The Netherlands)
+Anna Korhonen (University of Cambridge, UK)
+Kimmo Koskenniemi (University of Helsinki, Finland)
+Bernardo Magnini (FBK-irst, Italy)
+Stephan Oepen (University of Oslo, Norway)
+Richard Power (The Open University, UK)
+Giuseppe Riccardi (University of Trento, Italy)
+
+#EMNLP2009
+Jason Eisner
+Steve Clark
+Vivi Nastase
+Tim Paek
+Chin-Yew Lin
+Miles Osborne
+Adam Lopez
+Hang Li
+Marius Pasca
+Theresa Wilson
+Eric Fosler-Lussier
+Carlo Strapparava
+Katrin Erk
+Mona Diab
+Iryna Gurevych
+
+#COLING2008
+Paul Buitelaar
+Stephen Pulman
+Mary Dalrymple
+Eva Hajicova
+Robert Dale
+Mark Johnson
+Pierre Isabelle
+Miles Osborne
+Junichi Tsujii
+Rob Gaizauskus
+Bill Dolan
+Julia Hirschberg
+Chu-Ren Huang
+Dan Roth
+
+#ACL2008
+Kathleen McKeown (Columbia University, USA)
+Johanna D. Moore
+Simone Teufel
+James Allan
+Sadaoki Furui
+Jason Baldridge
+Regina Barzilay
+Pushpak Bhattacharayya
+David Carmel
+David Chiang
+Steve Clark
+Hal Daume III
+Dina Demner-Fushman
+Li Deng
+Mark Dras
+Pascale Fung
+Daniel Gildea
+John Hansen
+Daniel Hardt
+Masato Ishizaki
+Michael Johnston
+Min-Yen Kan
+Noriko Kando
+Emiel Krahmer
+Elizabeth Liddy
+Chin-Yew Lin
+Andrew McCallum
+Katja Markert
+Lluis Marquez
+Raymond Mooney
+Rashmi Prasad
+Helmut Schmid
+Sabine Schulte im Walde
+Rohini Srihari
+Manfred Stede
+Keiichi Tokuda
+Taro Watanabe
+Janyce Wiebe
+David Weir
+
+#COLING2012
+Martin Kay (Stanford University)
+Christian Boitet (University of Grenoble)
+Dipti Sharma (IIIT Hyderabad)
+Vincent Berment (C&S, Paris & LIG, GETALP, Grenoble)
+Gábor Prószéky (MorphoLogic & Pázmány Péter Catholic University,Budapest)
+Hans Uszkoreit (DFKI, Saarbrücken)
+Mark Johnson (Macquirie Univ., Sydney)
+Igor Boguslavsky (RAS, IPPI/IITP, Moscow & UPM, Madrid)
+Eva Hajicova (Charles Univ., Prague)
+Alexander Gelbukh (Instituto Politécnico Nacional, Mexico-city)
+Christophe Roche (Univ. de Savoie, Chambéry)
+Lauri Karttunen (Stanford University)
+Nicoletta Calzolari (CNR – ILC, Pisa)
+Véronique Aubergé (CNRS – LIG lab Grenoble)
+Rohit Manchanda (IITB, Mumbai)
+Philipp Koehn (University of Edinburgh)
+Mandel Shi (Xiamen University)
+Herve Blanchon (Université de Grenoble (LIG, GETALP))
+Jian-Yun Nie (Univ. de Montréal (RALI) )
+Horacio Saggion (Universitat Pompeu Fabra)
+Sivaji Bandyopadhyaya (Jadavpur University)
+Sergei Nirenburg (Univ. of Maryland, Baltimore)
+Mathieu Lafourcade (Univ. de Montpellier II (LIRMM))
+Yorick Wilks (Univ. of Sheffield)
+Junichi Tsujii (MSRA, Beijing)
+Constantin Orasan (University of Wolverhampton)
+Roland Kuhn (National Research Council of Canada, Ottawa)
+Andy Way (Univ. of Dublin and Applied Language)
+Rajeev Sangal (IIITHyderabad)
+Christian Boitet (Université de Grenoble (UJF, LIG, GETALP))
+Donia Scott (Univ. of Sussex)
+
+#ACL2015
+Yuji Matsumoto (Nara Institute of Science and Technology)
+Chengqing Zong (Institute of Automation, Chinese Academy of Sciences)
+Michael Strube (Heidelberg Institute for Theoretical Studies)
+Srinivas Bangalore
+Regina Barzilay
+Steven Bethard
+Chris Biemann
+Razvan Bunescu
+Pascal Denis
+Mark Dras
+James Fan
+raquel fernandez
+Jianfeng Gao
+Julia Hirschberg
+Fei Huang
+Mausam
+Jing Jiang
+John Kelleher
+Jin-Dong Kim
+Greg Kondrak
+Zornitsa Kozareva
+Lun-Wei Ku
+Tom Kwiatkowski
+Mirella Lapata
+Shou-De Lin
+Qin Lu
+Yusuke Miyao
+Daichi Mochihashi
+Jian-Yun Nie
+Alice Oh
+Rashmi Prasad
+Marta Recasens
+David Schlangen
+Anders Søgaard
+Suzanne Stevenson
+Joel Tetreault
+Xiaojun Wan
+Taro Watanabe
+Eric Xing
+Min Zhang
+
+#NAACL2015
+Rada Mihalcea
+Joyce Chai
+Anoop Sarkar
+Jason D. Williams
+Ani Nenkova
+Vincent Ng
+Chris Callison-Burch
+Fei Liu
+Alan Ritter
+Bowen Zhou
+David Smith
+Julia Hockenmaier
+Will Lewis
+Sameer Pradhan
+William Schuler
+Amarnag Subramanya
+Tong Zhang
+Bill Byrne
+Hany Hassan
+Kevin Knight
+Haitao Mi
+Brendan O’Connor
+Philip Resnik
+Richard Socher
+Sami Virpioja
+Dipanjan Das
+William Dolan
+Luke Zettlemoyer
+Saif M. Mohammad
+Jerry Zhu
+Xiaodong He
+Noah Smith
+Yue Zhang
+Jordan Boyd-Graber
+David Mimno
+
+#NAACL2016
+Kevin Knight
+Ani Nenkova
+Owen Rambow
+Mohit Bansal
+Regina Barzilay
+Eduardo Blanco
+Asli Celikyilmaz
+Cristian Danescu-Niculescu-Mizil
+Markus Dreyer
+Chris Dyer
+Jacob Eisenstein
+Micha Elsner
+Eric Fosler-Lussier
+Alexander Fraser
+Michel Galley
+Kevin Gimpel
+Dilek hakkanitur
+Helen Hastie
+Yulan He
+Dirk Hovy
+Heng Ji
+Jing Jiang
+Annie Louis
+Chin-Yew Lin
+Daniel Marcu
+Margaret Mitchell
+Alessandro Moschitti
+Hwee Tou Ng
+Viet-An Nguyen
+Mari Ostendorf
+Marius Pasca
+Slav Petrov
+Dan Roth
+Alexander Rush
+Kenji Sagae
+Giorgio Satta
+Hinrich Schuetze
+William Schuler
+Mihai Surdeanu
+Kristina Toutanova
+Byron Wallace
+Xiaojun Wan
+Furu Wei
+Dekai Wu
+Fei Xia
+
+#NAACL2009
+Mari Ostendorf
+Michael Collins
+Shri Narayanan
+Douglas W. Oard
+Lucy Vanderwende
+Michiel Bacchiani
+Regina Barzilay
+Kenneth W. Church
+Charles L. A. Clarke
+Eric Fosler-Lussier
+Sharon Goldwater
+Julia Hirschberg
+Jimmy Huang
+Mark Johnson
+Philipp Koehn
+Roland Kuhn
+Gina-Anne Levow
+Dekang Lin
+Ryan McDonald
+Premkumar Natarajan
+Patrick Pantel
+Kristina Toutanova
+Geoff Zweig
+
+#EMNLP2008
+Mirella Lapata
+Hwee Tou Ng
+Eneko Agirre
+Srinivas Bangalore
+Noemie Elhadad
+Radu Florian
+Rebecca Hwa
+Dan Klein
+Hang Li
+Mu Li
+Jimmy Lin
+Chris Manning
+Yuji Matsumoto
+Mari Ostendorf
+Bo Pang
+Chris Quirk
+Ben Taskar
+
+#COLING2014
+Andy Way
+Josef van Genabith
+Junichi Tsujii
+Jan Hajic
+Emily M. Bender
+Eva Hajicova
+Igor Boguslavsky
+Jason Eisner
+Yoshimasa Tsuruoka
+Philippe Blache
+Ted Gibson
+Reut Tsarfaty
+Yue Zhang
+Laura Kallmeyer
+Ryan McDonald
+Chu-Ren Huang
+Alessandro Oltramari
+Stephen Clark
+Alessandro Lenci
+Nicolas Asher
+Marilyn Walker
+Albert Gatt
+Advaith Siddharthan
+Ido Dagan
+Kentaro Inui
+Rada Mihalcea
+Bing Liu
+Gareth Jones
+Siddharth Patwardhan
+Danushka Bollegala
+Seung-won Hwang
+Srinivas Bangalore
+Heyan Huang
+Guillaume Jacquet
+Kristiina Jokinen
+David Traum
+Nick Campbell
+Alex Potamianos
+Phillip Koehn
+Chris Quirk
+Tiejun Zhao
+Pushpak Bhattacharyya
+Nicoletta Calzolari
+Martha Palmer
+Steven Bird
+Mark Liberman
+Rajeev Sangal
+Koenraad De Smedt
+Jesús Cardeñosa
+Jing-Shin Chang
+
+#ACL2007
+Antal van den Bosch
+Annie Zaenen
+Tim Baldwin
+Kees van Deemter
+Barbara Di Eugenio
+Josef van Genabith
+Claire Grover
+Diana McCarthy
+Dan Roth
+Richard Sproat
+Marc Swerts
+Andy Way
+
+#NAACL2007
+Candace Sidner
+Emily Bender
+Alan Black
+Andrei Broder
+Donna Byron
+Jamie Callan
+Li Deng
+Oren Etzioni
+Jianfeng Gao
+Nizar Habash
+Sanda Harabagiu
+Julia Hockenmaier
+Rebecca Hwa
+Dietrich Klakow
+Dan Klein
+Philipp Koehn
+Alexander Koller
+Liz Liddy
+Dekang Lin
+Ryan McDonald
+Ani Nenkova
+Jian-yun Nie
+Patrick Pantel
+John Prager
+Philip Resnik
+Eric Ringger
+Brian Roark
+Suzanne Stevenson
+David Traum
+Gokhan Tur
+Michael White
+
+#EMNLP2007
+Jason Eisner
+David Chiang
+Alexander Clark
+Michael Collins
+Hal Daume III
+Sanjeev Khudanpur
+Katrin Kirchhoff
+Dekang Lin
+Manabu Okumura
+Anoop Sarkar
+Suzanne Stevenson
+Tomek Strzalkowski
+Carlo Strapparava
+Hans Uszkoreit
+Menno van Zaanen
+Marilyn Walker
+Janyce Wiebe
+
+#ACL2006
+Nicoletta Calzolari
+Claire Cardie
+Pierre Isabelle
+Johan Bos
+Jason Chang
+David Chiang
+Eva Hajicova
+Chu-Ren Huang
+Martin Kay
+Emiel Krahmer
+Roland Kuhn
+Lillian Lee
+Yuji Matsumoto
+Dan Moldovan
+Mark-Jan Nederhof
+Hwee Tou Ng
+John Prager
+Anoop Sarkar
+Donia Scott
+Simone Teufel
+Benjamin Tsou
+ChengXiang Zhai
+Ming Zhou
+
+#EACL2006
+Diana McCarthy
+Shuly Wintner
+Antal van den Bosch
+Paul Buitelaar
+Jason Eisner
+Marcello Federico
+Rob Gaizauskas
+Mirella Lapata
+Massimo Poesio
+Ehud Reiter
+Giorgio Satta
+Andy Way
+
+#EMNLP2006
+Aitao Chen
+Keh-Jiann Chen
+David Chiang
+Pascale Fung
+Jianfeng Gao
+Julia Hockenmaier
+Xuanjing Huang
+Daniel Jurafsky
+Kui-Lam Kwok
+Gina-Anne Levow
+Haizhou Li
+Mu Li
+Qun Liu
+Xiaoqiang Luo
+Qing Ma
+Yuji Matsumoto
+Martha Palmer
+Fuchun Peng
+Richard Sproat
+Maosong Sun
+Haifeng Wang
+Kam-Fai Wong
+Fei Xia
+Nianwen Xue
+Jun Zhao
+Tiejun Zhao
+Guodong Zhou
+Ming Zhou
+Jingbo Zhu
+
+#NAACL2006
+Robert C Moore
+Johan Bos
+Dragomir Radev
+Jamie Callan
+Owen Rambow
+Joyce Chai
+Steve Renals
+Jason Eisner
+Stefan Riezler
+Mark Gales
+Rohini Srihari
+Fredric Gey
+Amanda Stent
+Roxana Girju
+Michael Strube
+Mark Hasegawa-Johnson
+Christoph Tillmann
+Julia Hirschberg
+Peter Turney
+Alon Lavie
+Ellen Voorhees
+Wei-Ying Ma
+Ralph Weischedel
+Mehryar Mohri
+Fei Xia
+Marius Pasca
+ChengXiang Zhai
+Gerald Penn
+Ming Zhou

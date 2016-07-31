@@ -33,6 +33,13 @@ def pub_count():
 	return pub_data
 
 
+def cite_count():
+	cc_data = {}
+	with open('/tmp/author_cite_count_2005.txt') as fs:
+		for line in fs:
+			cc_data.update({line.split('\t')[0]:float(line.split('\t')[1])+0.5})
+	return cc_data
+
 def run():
 	if os.path.isfile('/tmp/coo_weight.csv'):
 		print 'remove previous data'
@@ -40,6 +47,7 @@ def run():
 
 	coo_data,rev_coo_dict = cooperation_count()
 	pub_data = pub_count()
+	cc_data = cite_count()
 
 	for elem in coo_data:
 		author1,author2 = elem.split('\t')
@@ -47,9 +55,11 @@ def run():
 			if author2 in pub_data:
 				fs.write(author1+'\t'+author2+'\t'+str(1.0*pub_data[author2]/rev_coo_dict[elem])+'\n')
 				fs.write(author2+'\t'+author1+'\t'+str(1.0*pub_data[author1]/rev_coo_dict[elem])+'\n')
+				
 			else:
 				fs.write(author1+'\t'+author2+'\t'+str(0.0)+'\n')
 				fs.write(author2+'\t'+author1+'\t'+str(1.0*pub_data[author1]/rev_coo_dict[elem])+'\n')
+	
 		#print tmp,float(pub_data[tmp[0]])/rev_coo_dict[elem]
 		#try:
 		#	print [tmp[1],tmp[0]],float(pub_data[tmp[1]])/rev_coo_dict[elem]
