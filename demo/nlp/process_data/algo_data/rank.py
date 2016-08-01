@@ -44,23 +44,32 @@ def build_namedict():
 			name.update({tmp[0]:[tmp[1],int(tmp[2])]})
 	return name
 
-
+def build_chair():
+	chair = open('/Users/alex/Documents/MicrosoftAcademicNovae/demo/nlp/process_data/algo_data/chairs.txt').readlines()
+	chair=[elem.strip('\n') for elem in chair]
+	return set(chair)
 
 if __name__ == "__main__":
 	A = build_network(first_author=True,coo_filepath = '/tmp/coo_weight.csv',quality_filepath='/tmp/quality.csv',isweight=True)
 	name = build_namedict()
 	count = 0
+	new_count = 0
+	chair = build_chair()
 	if os.path.isfile('/tmp/rank_2005'):
 		os.remove('/tmp/rank_2005')
 	if os.path.isfile('/tmp/rank_2005_name'):
 		os.remove('/tmp/rank_2005_name')
-	for elem in dict_nlargest(A,3000):
+	for elem in dict_nlargest(A,len(A)):
 		count+=1
+
 		#if elem == '13B7FEAA':
 		#	print count,elem,name[elem]
-		if name[elem][1] <= 2002 and name[elem][1]>=2000:
+		if name[elem][1] <= 2016 and name[elem][1]>=2008:
+			new_count+=1
 			with open('/tmp/rank_2005','a+') as fs:
-				fs.write(elem+'\n')
+
+				fs.write(str(new_count)+'\t'+str(count)+'\t'+elem+'\t'+'\t'.join(map(str,name[elem]))+'\t'+str(name[elem][0] in chair)+'\n')
+
 			with open('/tmp/rank_2005_name','a+') as fs:
 				fs.write(name[elem][0]+'\n')
 				#fs.write(str(count)+'\t'+elem+'\t'+str(name[elem])+'\n')			

@@ -127,7 +127,7 @@ def main(timemachine_year):
 	                fs.write(key+'\t'+str(author_num_dict[key])+'\t'+str(modified_logistic(author_num_dict[key]))+'\n')
 
 if __name__ == '__main__':
-	main(2006)
+	main(2016)
 	coo_weight.run()
 	#for y in range(1980,2017):
 	#	main(y)
