@@ -54,15 +54,16 @@ if __name__ == "__main__":
 		os.remove('/tmp/rank_2005')
 	if os.path.isfile('/tmp/rank_2005_name'):
 		os.remove('/tmp/rank_2005_name')
-	for elem in dict_nlargest(A,2000):
+	for elem in dict_nlargest(A,3000):
 		count+=1
 		#if elem == '13B7FEAA':
 		#	print count,elem,name[elem]
-		if name[elem][1] <= 2016 and name[elem][1]>=2012:
+		if name[elem][1] <= 2002 and name[elem][1]>=2000:
 			with open('/tmp/rank_2005','a+') as fs:
 				fs.write(elem+'\n')
 			with open('/tmp/rank_2005_name','a+') as fs:
-				fs.write(str(count)+'\t'+elem+'\t'+str(name[elem])+'\n')			
+				fs.write(name[elem][0]+'\n')
+				#fs.write(str(count)+'\t'+elem+'\t'+str(name[elem])+'\n')			
 			print count,elem,name[elem]
 
 			

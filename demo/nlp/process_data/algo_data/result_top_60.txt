@@ -1,0 +1,70 @@
+20	7D6F2C89	jianfeng gao	2000	ACL2012	chair
+21	7DA9C9BD	philipp koehn	2001	ACL2009	chair
+24	7FA18E2D	robert c moore	2000	NAACL2006	chair	
+33	78BF4E87	timothy baldwin	2002	EMNLP2013	chair
+52	7E7B8914	james r curran	2002	ACL2009	chair
+58	7711F3AE	kristina toutanova	2000	ACL2014	chair
+62	286B65E2	dragomir r radev	2000	EMNLP2013	chair
+87	13B7FEAA	grzegorz kondrak	2000	ACL2014	chair
+88	7FAAD3E0	taku kudo	2000	??	??
+91	8060BA92	patrick pantel	2000	ACL2013	chair
+94	7FE0DFF7	alexander koller	2001	EACL2012	chair
+98	7DC6888E	manny rayner	2000	??	??
+106	81CBCC15	kenji yamada	2001	??	??
+109	0967B195	horacio saggion	2000	COLING2012	chair
+110	7E9E1624	mona diab	2002	NAACL2010	chair
+128	005D4952	bernardo magnini	2000	ACL2013	chair
+131	808CDE26	jun suzuki	2002	ACL2009	chair
+139	86210DCE	ted pedersen	2000	Professor at University of Minnesota]
+141	77392971	gregory aist	2002	Assistant Professor at Iowa State University]
+143	80967664	michele banko	2001	Microsoft
+144	7FD69324	tsutomu hirao	2001	??	??
+156	7BE03044	hideki isozaki	2001]	[Professor of Okayama Prefectural University]
+164	7CA60200	david chiang	2000]	[EMNLP 2010, area chair]
+178	7AD226B0	abraham ittycheriah	2001]	[IBM]
+183	817628DB	hiroshi nakagawa	2000]	[Professor at The University of Tokyo]
+192	80E19FD5	koichi takeuchi	2002]	[??]
+194	7F3DAECD	gideon s mann	2001]	[Bloomberg]
+199	809C94ED	michael johnston	2000]	[ACL 2010, area chair]
+204	79A744C8	miles osborne	2002]	[ACL 2014, area chair]
+206	8187A14F	tong zhang	2001]	[NAACL 2015, area chair]
+228	7EE76C8E	bo pang	2002]	[EMNLP 2015, area chair]
+236	80A31271	sabine schulte im walde	2000]	[ACL 2013, area chair]
+242	794DCC81	deepak ravichandran	2002]	[NAACL 2012, area chair]
+249	7108A6B1	michael gamon	2001]	[Microsoft]
+266	80E69EBF	theresa wilson	2002]	[NAACL 2013, area chair]
+272	7C9529BA	diane litman	2001]	[NAACL 2012, area chair]
+278	8608F40C	stephen clark	2000]	[ACL 2012, area chair]
+283	794CEF4E	kenji imamura	2001]	[??]
+285	7B53D376	roxana girju	2000]	[NAACL 2012, area chair]
+287	7C9A1453	dilek hakkanitur	2000]	[NAACL 2016, area chair]
+290	7E1CC173	diana maynard	2000]	[Faculty at University of Sheffield]
+303	4AE0C86F	dominic widdows	2002]	[??]
+304	7D405C9E	fuchun peng	2002]	[Google]
+310	799CF3F0	kishore papineni	2001]	[Google]
+311	804C7445	matt kaufmann	2000]	[Faculty at University of Texas at Austin]
+318	8154F49E	julio gonzalo	2000]	[EMNLP 2010, area chair]
+324	8236F3D3	ryuichiro higashinaka	2002]	[??]
+348	80BDF5BD	cheng niu	2002]	[Microsoft]
+354	035981D9	vasin punyakanok	2000]	[Google]
+365	081FA083	karin harbusch	2002]	[Faculty at University of koblenz]
+369	7E38F75F	charles schafer	2002]	[??]
+371	09D59795	claire gardent	2001]	[EACL 2009, area chair]
+374	7E5D095D	steven bird	2001]	[Faculty at University of Melbourne]
+375	7FA32E73	carl sable	2001]	[Faculty at Cooper Union]
+379	757AFFAE	katrin erk	2001]	[EMNLP 2009, area chair]
+383	82CC10A9	nizar habash	2000]	[NAACL 2007, area chair]
+385	84226611	raquel fernandez	2002]	[ACL 2015, area chair]
+392	2343F253	eva bura\xc5\x88ova	2000]	[??]
+396	7D88F9FD	naoki yoshinaga	2001]	[Faculty at University of Tokyo]
+400	0B0DE87E	ivana kruijffkorbayova	2000]	[Faculty at Universität des Saarlandes]
+404	0143A0AF	laura kallmeyer	2000]	[COLING2014, area chair]
+408	85496624	michael white	2000]	[NAACL 2007, area chair]
+409	754DBEB9	alexandra kinyon	2001]
+411	80A30029	dan klein	2001]	[EMNLP 2008, area chair]
+424	7D096B3B	fernando llopis	2002]	[Faculty at Universidad de Alicante.]
+425	0A0B7A9C	berthold crysmann	2002]	[??]
+430	2BB3FB8F	hai leong chieu	2002]	[Faculty at DSO National Laboratories]
+437	7EAAC8AF	kaoru yamamoto	2000]	[??]
+439	0DED84E3	panagiotis manolios	2000]	[Faculty at Northeastern University]
+442	6CDCF1B0	veronique hoste	2000]	[Faculty at University College Ghent]
